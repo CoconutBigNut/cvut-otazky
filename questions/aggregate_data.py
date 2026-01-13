@@ -76,7 +76,7 @@ def aggregate_data(questions_dir, output_file, image_base_url="https://raw.githu
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description='Aggregate questions and metadata into a single JSON file.')
-    parser.add_argument('--image-base', default="https://raw.githubusercontent.com/skopevoj/cvut-marasty/main/questions", help='Base URL for images (e.g., https://raw.githubusercontent.com/user/repo/main/questions/)')
+    parser.add_argument('--image-base', default="https://raw.githubusercontent.com/CoconutBigNut/cvut-marasty/main/questions", help='Base URL for images (e.g., https://raw.githubusercontent.com/user/repo/main/questions/)')
     args = parser.parse_args()
 
     # Robust path detection
