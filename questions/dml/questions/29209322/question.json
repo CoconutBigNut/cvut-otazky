@@ -1,0 +1,13 @@
+{
+    "question": "Určete hodnotu Eulerovy funkce $\\varphi(n)$ pro $n = 925650$. Zapište jednoduše číslem, bez jakýchkoli početních operací.",
+    "answers": [
+        {
+            "text": "211200",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "teorie-cisel"
+    ],
+    "questionType": "open"
+}

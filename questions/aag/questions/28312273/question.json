@@ -1,0 +1,28 @@
+{
+    "question": "Pro libovolný regulární jazyk generovaný známou regulární gramatikou o konstantní velikosti, lze pro vstupní slovo délky $n$ určitě rozhodnout, zda slovo do jazyka patří v čase nejhůře:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$\\Theta(n)$",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\Theta(n \\log n)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(n^2)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(n^3)$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "google-doc",
+        "Regulární jazyky",
+        "Formální jazyky, gramatiky a jejich klasifikace"
+    ],
+    "originalText": "16) Pro libovolný regulární jazyk generovaný známou regulární gramatikou o konstantní velikosti, lze pro vstupní slovo délky n určitě rozhodnout zda slovo do jazyka patří v čase nejhůře:\na) Θ(n)\nb) Θ(n log n)\nc) Θ(n^2)\nd) Θ(n^3)\n   A         ."
+}

@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujeme funkci $f(x, y, z) = x^3 y + y \\ln(z^2)$.",
+    "answers": [
+        {
+            "text": "Gradient funkce $f$ v bodě $(1, 1, 1)^T$ je $(3, 1, 2)^T$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Gradient funkce $f$ existuje na celém jejím definičním oboru.",
+            "isCorrect": true
+        },
+        {
+            "text": "Gradient funkce $f$ v bodě $(1, 1, 1)^T$ je 6.",
+            "isCorrect": false
+        },
+        {
+            "text": "Funkce $f$ nemá ve svém definičním oboru žádné stacionární body.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "diferencialni-pocet-funkci-vice-promennych"
+    ],
+    "questionType": "multichoice"
+}

@@ -1,0 +1,27 @@
+{
+    "question": "Pro derivační strom platí:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Je vždy jednoznačný",
+            "isCorrect": false
+        },
+        {
+            "text": "Kořenový uzel derivačního stromu je startovacím neterminálem dané gramatiky.",
+            "isCorrect": true
+        },
+        {
+            "text": "Vnitřní uzly derivačního stromu jsou tvořeny neterminály.",
+            "isCorrect": true
+        },
+        {
+            "text": "Listy derivačního stromu jsou tvořeny jen terminály.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "53) Pro derivační strom platí:\na) Je vždy jednoznačný\nb) Kořenový uzel derivačního stromu je startovacím neterminálem dané gramatiky.\nc) Vnitřní uzly derivačního stromu jsou tvořeny neterminály. \nd) Listy derivačního stromu jsou tvořeny terminály.\nB,C,D ."
+}

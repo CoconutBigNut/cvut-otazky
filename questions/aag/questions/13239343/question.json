@@ -1,0 +1,28 @@
+{
+    "question": "Jazyk $L = \\{a^n b^m : m \\geq n \\geq 0\\} \\cup \\{a^n b^m : n \\geq m \\geq 0\\}$ je:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Jazyk přijímán KA",
+            "isCorrect": true
+        },
+        {
+            "text": "Lze popsat RV",
+            "isCorrect": true
+        },
+        {
+            "text": "Přijímán TS",
+            "isCorrect": true
+        },
+        {
+            "text": "Přijímán ZA",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "120) Jazyk L={(a^n b^m : m >=n>=0) U (a^n b^m : n >=m>=0)}\na) jazyk přijímán KA\nb) popsán RV\nc) přijímán TS \nd) přijímán ZA\nA,B,C,D."
+}

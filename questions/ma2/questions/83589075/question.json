@@ -1,0 +1,25 @@
+{
+    "question": "Mějme funkce $f(x,y) = 2x + y + \\ln(x^3 y^3)$ a $g(x,y) = 3 \\ln(xy)$. Rozhodněte, která z následujících tvrzení jsou pravdivá.",
+    "answers": [
+        {
+            "text": "Funkce $g$ není zdola omezená.",
+            "isCorrect": true
+        },
+        {
+            "text": "Funkce $f$ a $g$ mají stejné stacionární body.",
+            "isCorrect": false
+        },
+        {
+            "text": "Funkce $g$ má v nějakém bodě lokální minimum.",
+            "isCorrect": false
+        },
+        {
+            "text": "Funkce $f$ a $g$ mají stejné Hessovy matice.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "diferencialni-pocet-funkci-vice-promennych"
+    ],
+    "questionType": "multichoice"
+}

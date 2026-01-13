@@ -1,0 +1,27 @@
+{
+    "question": "Převod KA $\\rightarrow$ RV metodou regulárních rovnic",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Vznikne regulární výraz",
+            "isCorrect": true
+        },
+        {
+            "text": "Na vstupu vyžaduje deterministický konečný automat",
+            "isCorrect": false
+        },
+        {
+            "text": "Na vstupu vyžaduje konečný automat bez $\\epsilon$-přechodů",
+            "isCorrect": false
+        },
+        {
+            "text": "Vyžaduje na vstupu konečný automat",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "121) Převod  KA -> RV metodou regulárních rovnic \na) vznikne regulární výraz\nb) na vstupu vyžaduje deterministický konečný automat\nc) na vstupu vyžaduje konečný automat bez ε-přechodů\nd) vyžaduje na vstupu konečný automat\nA,D      ."
+}

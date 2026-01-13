@@ -1,0 +1,28 @@
+{
+    "question": "Pro průnik $L_1$ (bezkontextový) a $L_2$ (regulární) platí:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "může být regulární",
+            "isCorrect": true
+        },
+        {
+            "text": "může být prázdný",
+            "isCorrect": true
+        },
+        {
+            "text": "je vždy prázdný",
+            "isCorrect": false
+        },
+        {
+            "text": "je vždy bezkontextový",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "80) Pro průnik L1 (bezkontext.) a L2 (reg.) platí:\na) může být regulární\nb) může být prázdný\nc) je vždy prázdný\nd) je vždy bezkontextový\nA,B,D   ."
+}

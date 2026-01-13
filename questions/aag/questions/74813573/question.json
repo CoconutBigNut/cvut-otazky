@@ -1,0 +1,25 @@
+{
+    "question": "Mějme následující jazyk $L$: $$L = \\{vv : v \\in \\{0, 1\\}^*\\}$$ Mohou být následující řetězce (kde $p$ je konstanta pumping lemma) použity k úspěšnému důkazu, že $L$ není regulární, pomocí pumping lemma? U každého řetězce rozhodněte, zdali ano (✔), nebo ne (✖).",
+    "answers": [
+        {
+            "text": "$0^p 1^p 0^p$",
+            "isCorrect": false
+        },
+        {
+            "text": "$0101$",
+            "isCorrect": false
+        },
+        {
+            "text": "$0^p 1^p 0^p 1^p$",
+            "isCorrect": true
+        },
+        {
+            "text": "$0^p 1 0^p 1$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "regularni-jazyky"
+    ],
+    "questionType": "multichoice"
+}

@@ -1,0 +1,27 @@
+{
+    "question": "Máme dva konečné nedeterministické automaty. Které z následujících tvrzení o nich platí?",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Jestliže oba přijímají stejný jazyk, pak jsou jejich přechodové diagramy izomorfní.",
+            "isCorrect": false
+        },
+        {
+            "text": "O jejich ekvivalenci nelze algoritmicky rozhodnout.",
+            "isCorrect": false
+        },
+        {
+            "text": "Nejsou ekvivalentní, pokud mají různý počet stavů.",
+            "isCorrect": false
+        },
+        {
+            "text": "Nic z uvedeného.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "106) Máme dva konečné nedeterministické automaty.\n a) Jestliže oba přijímají stejný jazyk, pak jsou jejich přechodové diagramy izomorfní.\n b) O jejich ekvivalenci nelze algoritmicky rozhodnout.\n c) Nejsou ekvivalentní, pokud mají různý počet stavů.\nnic    ."
+}

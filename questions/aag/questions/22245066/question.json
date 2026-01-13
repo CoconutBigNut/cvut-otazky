@@ -1,0 +1,24 @@
+{
+    "question": "Jazyk $L = \\{a^m b^n : m > n \\ge 1\\}$. Je možné jej:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "přijímat konečným automatem",
+            "isCorrect": false
+        },
+        {
+            "text": "popsat regulárním výrazem",
+            "isCorrect": false
+        },
+        {
+            "text": "přijímat zásobníkovým automatem",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "29) Jazyk L = {a^m b^n : m > n ≥ 1}. Je možné:\na) přijímat konečným automatem \nb) regulárním výrazem \nc) přijímat zásobníkovým automatem\nC           ."
+}

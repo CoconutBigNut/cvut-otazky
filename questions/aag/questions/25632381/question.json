@@ -1,0 +1,27 @@
+{
+    "question": "Syntaktická analýza bezkontextových jazyků pomocí zásobníkového automatu metodou shora dolů zahrnuje operace:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "expanze",
+            "isCorrect": true
+        },
+        {
+            "text": "redukce",
+            "isCorrect": false
+        },
+        {
+            "text": "přesun",
+            "isCorrect": false
+        },
+        {
+            "text": "srovnání",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "8) Syntaktická analýza bezkontextových jazyků pomocí zásobníkového automatu metodou shora dolů zahrnuje operace:redukce\na) expanze\nb) redukce\nc) přesun\nd) srovnání \nA,D      ."
+}

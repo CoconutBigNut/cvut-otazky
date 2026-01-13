@@ -1,0 +1,28 @@
+{
+    "question": "Máme gramatiku $G = (\\{A, B\\}, \\{a, b, c\\}, \\{A \\to Aa \\mid aB \\mid c, B \\to b \\mid Bc \\mid \\varepsilon\\}, A)$. Jaký jazyk generuje?",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "regulární jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "bezkontextový jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "kontextový jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "rekurzivně spočetný jazyk",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "72) Máme gramatiku G({A,B}, {a,b,c}, {A → Aa | aB | c, B → b | Bc | ε}, A).  Jaký jazyk generuje:\n a) regulární jazyk    \n b) bezkontextový jazyk\n c) kontextový jazyk\n d) rekurzivně spočetný jazyk \nA,B,C,D ."
+}

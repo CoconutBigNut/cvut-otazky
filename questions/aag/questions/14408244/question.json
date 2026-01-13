@@ -1,0 +1,28 @@
+{
+    "question": "Je dána nejednoznačná gramatika. Platí:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Gramatika může mít více derivačních stromů",
+            "isCorrect": false
+        },
+        {
+            "text": "Pro alespoň jednu větu existuje více derivačních stromů",
+            "isCorrect": true
+        },
+        {
+            "text": "Pro všechny věty jazyka existuje více derivačních stromů",
+            "isCorrect": false
+        },
+        {
+            "text": "Derivační strom pro levou a pravou derivaci je stejný",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "32) Je dána nejednoznačná gramatika. Platí:\na) gramatika může mít více derivačních stromů\nb) pro alespoň jednu větu existuje vice derivačních stromů\nc) pro všechny věty jazyka existuje vice derivačních stromů \nd) derivační strom pro levou a pravou derivaci je stejný (něco na ten způsob)\nB           ."
+}

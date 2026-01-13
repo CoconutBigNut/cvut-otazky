@@ -1,0 +1,29 @@
+{
+    "question": "Gramatika s pravidly $A \\to Ab, A \\to \\varepsilon$ generuje:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "regulární jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "bezkontextový jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "kontextový jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "rekurzivně spočetný jazyk",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "Bezkontextové gramatiky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "26) Gramatika s pravidly A->Ab, A->ε generuje: \na) regulární jazyk\nb) bezkontextový jazyk \nc) kontextový jazyk\nd) rekurzivně spočetný jazyk\nA,B,C,D  . "
+}

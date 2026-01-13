@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $A, B, C$ jsou nějaké podmnožiny společného univerza $\\mathcal{U}$ splňující $A \\cap B \\cap C \\neq \\emptyset$. Vyberte z nabídky všechny množinové vztahy, které lze za otazník doplnit tak, aby tvrzení $$A \\setminus (B \\setminus C) ? (A \\setminus B) \\setminus C$$ bylo vždy pravdivé (nezávisle na volbě $A, B, C$ splňujících předpoklady).",
+    "answers": [
+        {
+            "text": "$\\neq$",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\supsetneq$",
+            "isCorrect": true
+        },
+        {
+            "text": "$=$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\subseteq$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "mnoziny"
+    ],
+    "questionType": "multichoice"
+}

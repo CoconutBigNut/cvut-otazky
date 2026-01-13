@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $f$ je spojitá funkce na $\\mathbb{R}$. Vyberte platná tvrzení.",
+    "answers": [
+        {
+            "text": "$\\displaystyle \\int_{0}^{1} (f(x) + x) dx = \\int_{0}^{1} f(x) dx + x$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\displaystyle \\int_{0}^{1} (f(x) + 1) dx = \\int_{0}^{1} f(x) dx + 1$",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\displaystyle \\int_{0}^{1} (f(x) + x) dx = \\int_{0}^{1} f(x) dx + \\frac{1}{2}$",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\displaystyle \\int_{0}^{1} (f(x) + x) dx = \\int_{0}^{1} f(x) dx + \\frac{x^2}{2}$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "urcity-integral"
+    ],
+    "questionType": "multichoice"
+}

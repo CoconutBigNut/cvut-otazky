@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $R$ je neprázdná antisymetrická relace na konečné množině $A$. Potom tranzitivní uzávěr $R^+$:",
+    "answers": [
+        {
+            "text": "je nutně také antisymetrický.",
+            "isCorrect": false
+        },
+        {
+            "text": "je reflexivní, pokud i původní relace $R$ byla reflexivní.",
+            "isCorrect": true
+        },
+        {
+            "text": "obsahuje jako podmnožinu celou diagonálu $\\Delta_A$.",
+            "isCorrect": false
+        },
+        {
+            "text": "nemůže být symetrický.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "relace"
+    ],
+    "questionType": "multichoice"
+}

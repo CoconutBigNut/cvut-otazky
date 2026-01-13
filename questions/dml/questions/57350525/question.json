@@ -1,0 +1,13 @@
+{
+    "question": "Máme pět mužů a tři ženy. Kolika způsoby z nich lze vybrat dva smíšené páry (pořadí párů nehraje roli)? (zapište jednoduše číslem, bez jakýchkoli početních operací)",
+    "answers": [
+        {
+            "text": "60",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "kombinatorika"
+    ],
+    "questionType": "open"
+}

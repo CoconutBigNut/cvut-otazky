@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujme formuli $$(A \\Rightarrow (B \\wedge \\neg C)) \\Rightarrow \\neg B.$$ Z možností ohodnocení prvotních formulí níže vyberte všechny, pro která je formule pravdivá.",
+    "answers": [
+        {
+            "text": "$v(A) = 1, v(B) = 1, v(C) = 0.$",
+            "isCorrect": false
+        },
+        {
+            "text": "$v(A) = 0, v(B) = 1, v(C) = 0.$",
+            "isCorrect": false
+        },
+        {
+            "text": "$v(A) = 1, v(B) = 0, v(C) = 1.$",
+            "isCorrect": true
+        },
+        {
+            "text": "$v(A) = 1, v(B) = 0, v(C) = 0.$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "logika"
+    ],
+    "questionType": "multichoice"
+}

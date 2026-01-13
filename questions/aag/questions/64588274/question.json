@@ -1,0 +1,31 @@
+{
+    "question": "Metody převodu KA do RV",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "metoda sousedů",
+            "isCorrect": false
+        },
+        {
+            "text": "eliminace stavů",
+            "isCorrect": true
+        },
+        {
+            "text": "derivace",
+            "isCorrect": false
+        },
+        {
+            "text": "postupná konstrukce",
+            "isCorrect": false
+        },
+        {
+            "text": "metoda reg. rovnic",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "140) Metody převodu KA do RV\na) metoda sousedů\nb) eliminace stavů\nc) derivace\nd) postupná konstrukce \ne) metoda reg. rovnic\nB,E         ."
+}

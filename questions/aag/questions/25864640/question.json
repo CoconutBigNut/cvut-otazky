@@ -1,0 +1,35 @@
+{
+    "question": "Do množiny regulárních výrazů patří:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$\\emptyset$",
+            "isCorrect": true
+        },
+        {
+            "text": "$(x \\cdot y)$, kde $x, y$ jsou regulární výrazy",
+            "isCorrect": true
+        },
+        {
+            "text": "$a \\in T$, kde $T$ je množina symbolů abecedy",
+            "isCorrect": true
+        },
+        {
+            "text": "$x^*$, kde $x$ je regulární výraz",
+            "isCorrect": true
+        },
+        {
+            "text": "$x^+$, kde $x$ je regulární výraz",
+            "isCorrect": false
+        },
+        {
+            "text": "$!x$, kde $x$ je regulární výraz (doplněk z $x$)",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "42) Do množiny reg. výrazů patří:\na) Ø \nb) (x.y), x, y jsou reg výrazy\nc) a ∈ T, T je množina symbolů abecedy\nd) x*, x je regulární výraz\ne) x^+, x je regulární výraz\nf) !x, x je regulární výraz (doplněk z x)\nA,B,C,D  ."
+}

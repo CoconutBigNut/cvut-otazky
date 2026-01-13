@@ -1,0 +1,25 @@
+{
+    "question": "Z následujících zobrazení vyberte všechna, která jsou prostá (injektivní).",
+    "answers": [
+        {
+            "text": "$f(z, t) = (z, zt), \\ f: \\mathbb{R}^2 \\rightarrow \\mathbb{R}^2$",
+            "isCorrect": false
+        },
+        {
+            "text": "$f(x, y, z) = (x + y, y + z, x + y + z), \\ f: \\mathbb{R}^3 \\rightarrow \\mathbb{R}^3$",
+            "isCorrect": true
+        },
+        {
+            "text": "$f(n) = (n^2, n^2 - n), \\ f: \\mathbb{Z} \\rightarrow \\mathbb{Z}^2$",
+            "isCorrect": true
+        },
+        {
+            "text": "$f(x, y) = x - 2y, \\ f: \\mathbb{R}^2 \\rightarrow \\mathbb{R}$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "zobrazeni"
+    ],
+    "questionType": "multichoice"
+}

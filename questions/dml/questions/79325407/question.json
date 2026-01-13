@@ -1,0 +1,25 @@
+{
+    "question": "Rozhodněte, které z následujících formulí jsou mintermy v úplném DNT formule: $(A \\lor \\neg C) \\Rightarrow B$",
+    "answers": [
+        {
+            "text": "$(\\neg A \\land \\neg B \\land C)$",
+            "isCorrect": true
+        },
+        {
+            "text": "$(\\neg A \\lor \\neg B \\lor \\neg C)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$(\\neg A \\land \\neg B \\land \\neg C)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$(A \\land \\neg B \\land \\neg C)$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "logika"
+    ],
+    "questionType": "multichoice"
+}

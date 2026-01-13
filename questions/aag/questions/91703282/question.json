@@ -1,0 +1,27 @@
+{
+    "question": "Překladový automat: od čeho se odvodí výstup? Které z následujících tvrzení je pravdivé?",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Pokud záleží na vstupu a stavu, jedná se o Mealyho automat.",
+            "isCorrect": true
+        },
+        {
+            "text": "Pokud záleží na vstupu, je to $F$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud nezáleží ani na vstupu, ani na stavu, jedná se o Mooreův automat.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud záleží na stavu, jedná se o Mooreův automat.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Formální překlady",
+        "google-doc"
+    ],
+    "originalText": "48) Překladový automat, od čeho se odvodí výstup, co je pravda z tvrzení \na) pokud zalezi na vstupu a stavu, je to mealy\nb) pokud zalezi na vstupu, je to F   \nc) pokud nezalezi ani na vstupu, ani na stavu, je to moore\nd) pokud zalezi na stavu, je to moore\nA,D       ."
+}

@@ -1,0 +1,31 @@
+{
+    "question": "Pro konečné automaty platí:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Nedeterministický je silnější",
+            "isCorrect": false
+        },
+        {
+            "text": "Deterministický je silnější",
+            "isCorrect": false
+        },
+        {
+            "text": "Nelze rozhodnout",
+            "isCorrect": false
+        },
+        {
+            "text": "Deterministický je slabší",
+            "isCorrect": false
+        },
+        {
+            "text": "Nic",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "51) Pro konečné automaty platí:\na) nedeterministický je silnější\nb) deterministický je silnější\nc) nelze rozhodnout\nd) deterministický je slabší\nnic       ."
+}

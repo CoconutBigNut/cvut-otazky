@@ -1,0 +1,25 @@
+{
+    "question": "Pro uvedené kombinace vlastností určete, zda na neprázdné množině $X$ může existovat **neprázdná** binární relace, která má danou kombinaci vlastností.",
+    "answers": [
+        {
+            "text": "Symetrická, antisymetrická a tranzitivní.",
+            "isCorrect": true
+        },
+        {
+            "text": "Reflexivní, symetrická, antisymetrická a tranzitivní.",
+            "isCorrect": true
+        },
+        {
+            "text": "Reflexivní, tranzitivní a asymetrická.",
+            "isCorrect": false
+        },
+        {
+            "text": "Symetrická a antisymetrická.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "relace"
+    ],
+    "questionType": "multichoice"
+}

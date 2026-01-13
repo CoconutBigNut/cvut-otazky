@@ -1,0 +1,27 @@
+{
+    "question": "Mějme dvě regulární gramatiky $G_1$ a $G_2$. O jejich ekvivalenci platí:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "O ekvivalenci lze vždy algoritmicky rozhodnout.",
+            "isCorrect": true
+        },
+        {
+            "text": "Obecně nelze rozhodnout zda jsou ekvivalentní, jedná se o algoritmicky neřešitelný problém.",
+            "isCorrect": false
+        },
+        {
+            "text": "O ekvivalenci lze rozhodnout pouze pokud gramatiky neobsahují rekurzivní pravidla.",
+            "isCorrect": false
+        },
+        {
+            "text": "O ekvivalenci lze rozhodnout pouze pokud gramatiky neobsahují nepřímé rekurze.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "55) Mějme dvě regulární gramatiky G1 a G2. O jejich ekvivalenci platí:\na) O ekvivalenci lze vždy algoritmicky rozhodnout.\nb) Obecně nelze rozhodnout zda jsou ekvivalentní, jedná se o algoritmicky neřešitelný problém.\nc) O ekvivalenci lze rozhodnout pouze pokud gramatiky neobsahují rekurzivní pravidla.\nd) O ekvivalenci lze rozhodnout pouze pokud gramatiky neobsahují nepřímé rekurze.\nA          ."
+}

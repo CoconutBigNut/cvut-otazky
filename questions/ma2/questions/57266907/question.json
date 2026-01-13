@@ -1,0 +1,25 @@
+{
+    "question": "Při výpočtu hodnot funkce $f(x)$ pomocí jejího Taylorova polynomu $T_{n,a}(x)$ závisí obecně velikost chyby na",
+    "answers": [
+        {
+            "text": "stupni polynomu $n$.",
+            "isCorrect": true
+        },
+        {
+            "text": "konstantě $\\xi$, kterou lze předem zvolit.",
+            "isCorrect": false
+        },
+        {
+            "text": "hodnotě bodu $a$.",
+            "isCorrect": true
+        },
+        {
+            "text": "hodnotě bodu $x$.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "taylorovy-polynomy-rady-a-veta"
+    ],
+    "questionType": "multichoice"
+}

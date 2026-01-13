@@ -1,0 +1,27 @@
+{
+    "question": "Mějme nejlepší algoritmus z přednášek, který rozhoduje každý jazyk generovaný regulární gramatikou. Tento algoritmus rozhodne o slovu délky $n$, zda toto slovo patří do jazyka v čase (vyberte nejpřesnější možnost; velikost gramatiky zanedbejte, t.j. považujte za konstantní):",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$\\Theta(n)$",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\Theta(n^2)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(1)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(n^3)$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "139) Mějme nejlepší algoritmus z přednášek, který rozhoduje každý jazyk generovaný regulární gramatikou. Tento algoritmus rozhodne o slovu délky n, zda toto slovo patří do jazyka v čase (vyberte nejpřesnější možnost; velikost gramatiky zanedbejte, t.j. považujte za konstantní):\nΘ(n).\nΘ(n^2).\nΘ(1).\nΘ(n^3).\nA           ."
+}

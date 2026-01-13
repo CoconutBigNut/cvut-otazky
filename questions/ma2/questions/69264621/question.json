@@ -1,0 +1,25 @@
+{
+    "question": "Které z následujících řad jsou divergentní?",
+    "answers": [
+        {
+            "text": "$\\sum_{n=1}^{\\infty} c$, kde $c$ je nenulová konstanta.",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\sum_{n=1}^{\\infty} (e/\\pi)^n$.",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\sum_{n=1}^{\\infty} \\frac{n^2}{n^2+1}$.",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\sum_{n=1}^{\\infty} \\sqrt[n]{n}$.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "ciselne-a-mocninne-rady"
+    ],
+    "questionType": "multichoice"
+}

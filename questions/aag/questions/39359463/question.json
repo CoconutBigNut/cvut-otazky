@@ -1,0 +1,27 @@
+{
+    "question": "Formální abeceda je:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "posloupnost symbolů",
+            "isCorrect": false
+        },
+        {
+            "text": "binární relace",
+            "isCorrect": false
+        },
+        {
+            "text": "množina symbolů",
+            "isCorrect": true
+        },
+        {
+            "text": "množina dvojic",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "73) Formalni abeceda je:\n a) posloupnost symbolů\n b) binární relace\n c) množina symbolů\n d) množina dvojicT(\n C       ."
+}

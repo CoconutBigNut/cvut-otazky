@@ -1,0 +1,28 @@
+{
+    "question": "Gramatika s pravidly $S \\to aA$, $S \\to Aa$ je typu:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "regulární",
+            "isCorrect": false
+        },
+        {
+            "text": "bezkontextová",
+            "isCorrect": true
+        },
+        {
+            "text": "kontextová",
+            "isCorrect": true
+        },
+        {
+            "text": "obecná/neomezená",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "google-doc",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "Bezkontextové gramatiky"
+    ],
+    "originalText": "31) Gramatika s pravidly  S→aA,S→Aa je typu: \na) regulární\nb) bezkontextová\nc) kontextová\nd) obecná/neomezená\nB,C,D    ."
+}

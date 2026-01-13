@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $V$ je regulární výraz nad neprázdnou abecedou $\\Sigma$. O každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$), nebo nepravdivé ($\\times$):",
+    "answers": [
+        {
+            "text": "Existuje regulární výraz $W$, takový, že $W \\cdot V = V$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Existuje regulární výraz $W$, takový, že $V = W + V^* \\cdot V$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud výraz $V$ obsahuje iteraci, pak je $L(V)$ nutně nekonečný.",
+            "isCorrect": false
+        },
+        {
+            "text": "Existuje regulární výraz $W$, takový, že $V = W + W \\cdot V$.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "regularni-jazyky"
+    ],
+    "questionType": "multichoice"
+}

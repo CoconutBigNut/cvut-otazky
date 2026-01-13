@@ -1,0 +1,25 @@
+{
+    "question": "O každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$) či nepravdivé ($\\times$):",
+    "answers": [
+        {
+            "text": "Nechť $L$ je regulární jazyk. Pak pumping lemma lze použít pro důkaz, že $L$ je regulární.",
+            "isCorrect": false
+        },
+        {
+            "text": "Nechť $L$ je neregulární jazyk, který nemá pumpovací vlastnost. Pak pumping lemma lze použít pro důkaz, že $L$ není regulární.",
+            "isCorrect": true
+        },
+        {
+            "text": "Pumping lemma popisuje jednu z vlastností regulárních jazyků.",
+            "isCorrect": true
+        },
+        {
+            "text": "Pumping lemma popisuje jednu z vlastností konečných regulárních jazyků, nikoliv nekonečných.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "regularni-jazyky"
+    ],
+    "questionType": "multichoice"
+}

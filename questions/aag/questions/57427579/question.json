@@ -1,0 +1,25 @@
+{
+    "question": "O každém z následujících tvrzení rozhodněte, zdali je pravdivé (✓) či nepravdivé (✘):",
+    "answers": [
+        {
+            "text": "Nechť $L$ není bezkontextový jazyk. Pak Myhillovu–Nerodovu větu lze použít pro důkaz, že $L$ není bezkontextový.",
+            "isCorrect": false
+        },
+        {
+            "text": "Nechť $L$ není regulární jazyk. Pak Myhillovu–Nerodovu větu lze použít pro důkaz, že $L$ není regulární.",
+            "isCorrect": true
+        },
+        {
+            "text": "Nechť $L$ je regulární jazyk. Pak Myhillovu–Nerodovu větu lze použít pro důkaz, že $L$ je regulární.",
+            "isCorrect": true
+        },
+        {
+            "text": "Myhillova–Nerodova věta popisuje jednu z vlastností regulárních jazyků.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "regularni-jazyky"
+    ],
+    "questionType": "multichoice"
+}

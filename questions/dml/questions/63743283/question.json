@@ -1,0 +1,25 @@
+{
+    "question": "Na ostrově poctivců a padouchů poctivci vždy mluví pravdu a padouši vždy lžou. Potkám dva $A$ a $B$. $A$ řekne:\n\n$$\\text{\"Oba jsme poctivci.\"}$$\n\nKdo je $A$ a kdo je $B$?",
+    "answers": [
+        {
+            "text": "$B$ je nutně poctivec.",
+            "isCorrect": false
+        },
+        {
+            "text": "$B$ je nutně padouch.",
+            "isCorrect": false
+        },
+        {
+            "text": "$A$ může být padouch.",
+            "isCorrect": true
+        },
+        {
+            "text": "$B$ může být poctivec.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "logika"
+    ],
+    "questionType": "multichoice"
+}

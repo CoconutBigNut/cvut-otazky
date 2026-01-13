@@ -1,0 +1,27 @@
+{
+    "question": "Metoda zdola nahoru:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Počet stavů je roven počtu neterminálů",
+            "isCorrect": false
+        },
+        {
+            "text": "Neterminálů je nekonečně",
+            "isCorrect": false
+        },
+        {
+            "text": "Neobsahuje cykly",
+            "isCorrect": false
+        },
+        {
+            "text": "Žádná z uvedených možností",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "81) Metoda zdola nahoru:\na) počet stavů je roven počtu neterminálů\nb) neterminálů je nekonečně\nc) neobsahuje cykly\nNic      ."
+}

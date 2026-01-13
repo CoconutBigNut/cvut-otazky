@@ -1,0 +1,25 @@
+{
+    "question": "Na množině $X = \\{a, b, c\\}$ je definována binární relace $R = \\{(b, a), (c, b)\\} \\cup \\Delta_X$. Z nabídky níže vyberte všechny vlastnosti, které relace $R$ splňuje.",
+    "answers": [
+        {
+            "text": "RE",
+            "isCorrect": true
+        },
+        {
+            "text": "TR",
+            "isCorrect": false
+        },
+        {
+            "text": "SY",
+            "isCorrect": false
+        },
+        {
+            "text": "IR",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "relace"
+    ],
+    "questionType": "multichoice"
+}

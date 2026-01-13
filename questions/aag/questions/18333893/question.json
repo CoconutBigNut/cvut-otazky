@@ -1,0 +1,23 @@
+{
+    "question": "Jazyk $L = \\{a^n b^m : n \\ge 0, m \\ge 3\\}$ je možné:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "přijímat konečným automatem",
+            "isCorrect": true
+        },
+        {
+            "text": "přijímat zásobníkovým automatem",
+            "isCorrect": true
+        },
+        {
+            "text": "popsat regulárním výrazem",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "11) Jazyk  L={anbm:n≥0,m≥3} je možné: \na) přijímat konečným automatem  \nb) přijímat zásobníkovým automatem \nc) popsat regulárním výrazem\nA,B,C     . "
+}

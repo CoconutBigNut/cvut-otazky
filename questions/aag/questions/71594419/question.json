@@ -1,0 +1,27 @@
+{
+    "question": "Složitost pro libovolný jazyk generovaný kontextovou gramatikou pro slovo délky $n$ je",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$\\Theta(n)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(n^3)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(n^2)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(2^n)$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Kontextové jazyky",
+        "google-doc"
+    ],
+    "originalText": "83) Složitost pro libovolný jazyk generovaný kontextovou gramatikou pro slovo délky n je\na) Θ(n)\nb) Θ(n^3)\nc) Θ(n^2)\nd) Θ(2^n)\n         B."
+}

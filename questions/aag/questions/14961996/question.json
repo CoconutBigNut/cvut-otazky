@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujte regulární výraz $V = a^* a \\varepsilon + b^* \\varepsilon b + ab \\emptyset ba$ nad abecedou $\\Sigma = \\{a, b\\}$. O každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$), nebo nepravdivé ($\\times$). ($V'$ označuje derivaci regulárního výrazu $V$ podle řetězce $aa$. $|w|_x$ označuje počet symbolů $x$ v řetězci $w$.)",
+    "answers": [
+        {
+            "text": "$\\varepsilon \\in h(V)$.",
+            "isCorrect": false
+        },
+        {
+            "text": "$h(V')$ je konečný jazyk.",
+            "isCorrect": false
+        },
+        {
+            "text": "Neexistuje řetězec $w \\in h(V)$ takový, že zároveň $|w|_a > 0$ a $|w|_b > 0$.",
+            "isCorrect": true
+        },
+        {
+            "text": "$h(V')$ je bezkontextový jazyk.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "regularni-jazyky"
+    ],
+    "questionType": "multichoice"
+}

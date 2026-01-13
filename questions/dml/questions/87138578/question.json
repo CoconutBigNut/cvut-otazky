@@ -1,0 +1,25 @@
+{
+    "question": "Z následujících formulí vyberte všechny, které jsou logickým důsledkem formule: $$(A \\vee B) \\Rightarrow (B \\wedge \\neg C)$$ ",
+    "answers": [
+        {
+            "text": "$\\top$",
+            "isCorrect": true
+        },
+        {
+            "text": "$(A \\wedge \\neg A) \\Rightarrow (B \\vee C)$",
+            "isCorrect": true
+        },
+        {
+            "text": "$(A \\vee B) \\wedge (\\neg B \\vee C)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$(\\neg A \\wedge \\neg B) \\vee (B \\wedge \\neg C)$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "logika"
+    ],
+    "questionType": "multichoice"
+}

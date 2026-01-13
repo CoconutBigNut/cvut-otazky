@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujte následující zásobníkový automat $R = (\\{A, B, C\\}, \\{0\\}, \\{a, b\\}, \\delta, A, b, \\{B\\})$ přijímající přechodem do koncového stavu, který má vrchol zásobníku vlevo. O každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$) či nepravdivé ($\\times$):",
+    "answers": [
+        {
+            "text": "$L(R) = \\{\\varepsilon\\}.$",
+            "isCorrect": false
+        },
+        {
+            "text": "$L(R) = \\emptyset.$",
+            "isCorrect": true
+        },
+        {
+            "text": "$R$ je deterministický.",
+            "isCorrect": false
+        },
+        {
+            "text": "$R$ je nedeterministický.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "bezkontextove-gramatiky"
+    ],
+    "questionType": "multichoice"
+}

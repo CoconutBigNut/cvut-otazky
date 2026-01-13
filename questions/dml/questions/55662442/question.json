@@ -1,0 +1,25 @@
+{
+    "question": "Buďte $p$ a $v$ unární predikáty. Které z následujících logických důsledků platí?",
+    "answers": [
+        {
+            "text": "$(\\forall x)(p(x) \\lor v(x)) \\models (\\forall x)p(x) \\lor (\\forall x)v(x)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$(\\forall x)(p(x) \\land v(x)) \\models (\\forall x)p(x) \\land (\\forall x)v(x)$",
+            "isCorrect": true
+        },
+        {
+            "text": "$(\\exists x)p(x) \\land (\\exists x)v(x) \\models (\\exists x)(p(x) \\land v(x))$",
+            "isCorrect": false
+        },
+        {
+            "text": "$(\\forall x)p(x) \\lor (\\forall x)v(x) \\models (\\forall x)(p(x) \\lor v(x))$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "logika"
+    ],
+    "questionType": "multichoice"
+}

@@ -1,0 +1,27 @@
+{
+    "question": "Pokud je jazyk přijímaný $ZA$ (zásobníkovým automatem) koncovým stavem, pak:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "je přijímaný $TS$ (Turingovým strojem)",
+            "isCorrect": true
+        },
+        {
+            "text": "$ZA$ je deterministický",
+            "isCorrect": false
+        },
+        {
+            "text": "pokud není deterministický, lze převést na deterministický",
+            "isCorrect": false
+        },
+        {
+            "text": "je přijímaný $KA$ (konečným automatem)",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "64) Pokud je jazyk přijímaný ZA koncovým stavem\na) je přijímaný TS    \nb) ZA je deterministický\nc) pokud není deterministický, lze převést na deterministický\nd) je přijímaný KA \n   A       ."
+}

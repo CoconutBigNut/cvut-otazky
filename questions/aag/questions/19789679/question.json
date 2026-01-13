@@ -1,0 +1,28 @@
+{
+    "question": "Lineárně omezený Turingův stroj:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "má velikost pásky omezenou konstantou",
+            "isCorrect": false
+        },
+        {
+            "text": "má velikost pásky omezenou velikostí vstupní věty",
+            "isCorrect": true
+        },
+        {
+            "text": "má velikost pásky omezenou velikostí vstupní abecedy",
+            "isCorrect": false
+        },
+        {
+            "text": "přijímá všechny kontextové jazyky",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "google-doc",
+        "Kontextové jazyky",
+        "Formální jazyky, gramatiky a jejich klasifikace"
+    ],
+    "originalText": "18) Lineárně omezený Turingův stroj:\na) má velikost pásky omezenou konstantou\nb) má velikost pásky omezenou velikostí vstupní věty\nc) má velikost pásky omezenou velikostí vstupní abecedy\nd) přijímá všechny kontextové jazyky \n,D   B      ."
+}

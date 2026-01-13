@@ -1,0 +1,27 @@
+{
+    "question": "Máte nedeterministický konečný automat s $n$ stavy, po determinizaci budete mít:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "maximálně $n^2$ stavů",
+            "isCorrect": false
+        },
+        {
+            "text": "minimálně $n^2$ stavů",
+            "isCorrect": false
+        },
+        {
+            "text": "maximálně $n$ stavů",
+            "isCorrect": false
+        },
+        {
+            "text": "minimálně $n$ stavů",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "36) Máte nedeterministický konečný automat s n stavy, po determinizaci budete mít:\na) maximálně n^2 stavů\nb) minimálně n^2 stavů\nc) maximálně n stavů\nd) minimálně n stavů\nnic      .ko"
+}

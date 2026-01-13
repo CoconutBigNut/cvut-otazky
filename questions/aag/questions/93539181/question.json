@@ -1,0 +1,15 @@
+{
+    "question": "Nejednoznačný jazyk:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Všechny gramatiky generující nejednoznačný jazyk jsou nejednoznačné",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "46) Nejednoznačný jazyk\na) všechny gramatiky generující nejednoznačný jazyk jsou nejednoznačné \nA         ."
+}

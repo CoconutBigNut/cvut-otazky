@@ -1,0 +1,27 @@
+{
+    "question": "Vyberte, který z jazyků není regulární:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$L = \\{ a^n b^n c^n, n \\geq 0 \\}$",
+            "isCorrect": true
+        },
+        {
+            "text": "$L = \\{ a^n b^n, n \\geq 0 \\}$",
+            "isCorrect": true
+        },
+        {
+            "text": "$L = \\{ a^n b^m, m, n \\geq 0 \\}$",
+            "isCorrect": false
+        },
+        {
+            "text": "$L = \\{ a^n, n \\geq 0 \\}$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "131) Vyberte, který z jazyků není regulární \n   a) L = { a^n b^n c^n, n >= 0 }\n   b) L = { a^n b^n, n >= 0 }\n   c) L = { a^n b^m, m,n >= 0 }\n   d) L = { a^n, n >= 0 }\n A,B       ."
+}

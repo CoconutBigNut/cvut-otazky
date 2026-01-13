@@ -1,0 +1,24 @@
+{
+    "question": "Jazyk $L = \\{a^n b^m : m, n \\geq 1, n \\neq m\\}$.",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Nejedná se o RJ a pumping-lemma neplatí",
+            "isCorrect": true
+        },
+        {
+            "text": "Pumping-lemma platí pro $p \\geq 0$",
+            "isCorrect": false
+        },
+        {
+            "text": "Pumping-lemma platí pro $p$ větší než …doplnit_vlastní_hodnotu…",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "59) Jazyk L = {a^n b^m : m,n >= 1, n != m}.\na) nejedná se o RJ a pumping-lemma neplatí\nb) pumping-lemma platí pro p >= 0\nc) pumping-lemma platí pro p větší než …doplnit_vlastní_hodnotu…\nA         ."
+}

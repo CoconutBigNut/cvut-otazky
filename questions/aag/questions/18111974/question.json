@@ -1,0 +1,28 @@
+{
+    "question": "Jazyk $L = \\{a^n b^m : m \\ge 2, n \\ge 1\\}$ je možné:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "přijímat konečným automatem",
+            "isCorrect": true
+        },
+        {
+            "text": "přijímat zásobníkovým automatem",
+            "isCorrect": true
+        },
+        {
+            "text": "popsat regulárním výrazem",
+            "isCorrect": true
+        },
+        {
+            "text": "přijímat Turingovým strojem",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "17) Jazyk  L={anbm:m≥2,n≥1}je možné: \na) přijímat konečným automatem\nb) přijímat zásobníkovým automatem\nc) popsat regulárním výrazem\nd) přijímat Turingovým strojem\nAB,,C,D  ."
+}

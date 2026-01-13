@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $F(x,y) = \\begin{pmatrix} x^2 + y \\\\ x - y \\end{pmatrix}$",
+    "answers": [
+        {
+            "text": "$DF = \\begin{pmatrix} 2x & 1 \\\\ 1 & -1 \\end{pmatrix}$",
+            "isCorrect": true
+        },
+        {
+            "text": "$DF = \\begin{pmatrix} 2x + 1 \\\\ 0 \\end{pmatrix}$",
+            "isCorrect": false
+        },
+        {
+            "text": "$DF = (2x, -1)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$DF = \\begin{pmatrix} 2 & 1 \\\\ 1 & 0 \\end{pmatrix}$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "2501-rozstrel"
+    ],
+    "questionType": "multichoice"
+}

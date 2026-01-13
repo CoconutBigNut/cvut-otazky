@@ -1,0 +1,25 @@
+{
+    "question": "Mějme množinu $A = \\{a, b, c\\}$ a uvažujme binární relace na této množině. Označme $R = \\{(a, b), (b, c), (c, a)\\}$. Vyberte z následující nabídky všechny relace komutující s $R$, tedy všechny relace $S$ takové, že platí $R \\circ S = S \\circ R$.",
+    "answers": [
+        {
+            "text": "$O_A = \\emptyset$.",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\{(a, a), (a, b), (b, a), (b, b)\\}$.",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\{(b, a), (c, b), (a, c)\\}$.",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\{(a, a), (a, b), (b, a)\\}$.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "relace"
+    ],
+    "questionType": "multichoice"
+}

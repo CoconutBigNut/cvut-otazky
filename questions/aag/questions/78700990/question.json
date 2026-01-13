@@ -1,0 +1,27 @@
+{
+    "question": "$L_1$ je regulární jazyk, $\\overline{L_1}$ je jeho doplněk, pak platí:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Jestliže $\\overline{L_1} = L_2$ a $\\overline{L_2} = L_3$, pak $L_1 = L_3$.",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\overline{L_1} = L_2$, pak $L_2$ je vždy regulární.",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\overline{L_1} = L_2$, pak $L_2$ může být regulární.",
+            "isCorrect": true
+        },
+        {
+            "text": "Jestliže je $L_2$ regulární, $\\overline{L_1} = L_2$ a $\\overline{L_2} = L_3$, pak $L_2 = L_3$.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "93)  L1 je regulární jazyk,  L1 je jeho doplněk, pak platí:      a) Jestliže  L1 =  L2 a  L2 =  L3, pak  L1 =  L3. \n b)  L1=  L2, pak  L2 je vždy regulární\n c)  L1 =  L2, pak  L2 může být regulární\n d) Jestliže je  L2 regulární,  L1 =  L2 a  L2 =  L3 pak  L2 =  L3. \nA,B,C    ."
+}

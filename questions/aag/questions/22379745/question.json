@@ -1,0 +1,25 @@
+{
+    "question": "O každém z následujících tvrzení rozhodněte, zdali je pravdivé (✔), nebo nepravdivé (✖):",
+    "answers": [
+        {
+            "text": "Existuje kontextový jazyk, pro nějž nelze sestrojit Turingův stroj, který jej rozhoduje.",
+            "isCorrect": false
+        },
+        {
+            "text": "Existuje kontextový jazyk, který není rekurzivní.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pro každý rekurzivní jazyk lze zkonstruovat Turingův stroj, který jej rozhoduje.",
+            "isCorrect": true
+        },
+        {
+            "text": "Pro každý rekurzivně spočetný jazyk lze zkonstruovat Turingův stroj, který jej přijímá.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "rekurzivne-spocetne-jazyky"
+    ],
+    "questionType": "multichoice"
+}

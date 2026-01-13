@@ -1,0 +1,25 @@
+{
+    "question": "O každém z následujících tvrzení rozhodněte, zdali je pravdivé (✔), nebo nepravdivé (✖):",
+    "answers": [
+        {
+            "text": "Existuje nekonečný jazyk, který není regulární.",
+            "isCorrect": true
+        },
+        {
+            "text": "Každý nekonečný jazyk je regulární.",
+            "isCorrect": false
+        },
+        {
+            "text": "Existuje konečný jazyk, který je regulární.",
+            "isCorrect": true
+        },
+        {
+            "text": "Existuje nekonečný jazyk, který je regulární.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "regularni-jazyky"
+    ],
+    "questionType": "multichoice"
+}

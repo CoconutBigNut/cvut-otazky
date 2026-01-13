@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujte bezkontextovou gramatiku $G = (N, \\Sigma, P, S)$. O každém z následujících tvrzení rozhodněte, zdali je pravdivé či nepravdivé:",
+    "answers": [
+        {
+            "text": "Terminál $x \\in \\Sigma$ je nedostupný v $G$ právě tehdy, když neexistuje derivace $S \\Rightarrow^* \\alpha x \\beta$, kde $\\alpha, \\beta \\in (N \\cup \\Sigma)^*$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Neterminál $X \\in N$ je nedostupný v $G$ právě tehdy, když neexistuje derivace $S \\Rightarrow^* \\alpha X \\beta$, kde $\\alpha, \\beta \\in (N \\cup \\Sigma)^*$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Symbol $X$ je nedostupný právě tehdy, když je zbytečný.",
+            "isCorrect": false
+        },
+        {
+            "text": "$S$ je vždy dostupný symbol.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "bezkontextove-gramatiky"
+    ],
+    "questionType": "multichoice"
+}

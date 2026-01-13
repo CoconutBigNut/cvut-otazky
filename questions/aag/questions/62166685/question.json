@@ -1,0 +1,31 @@
+{
+    "question": "Nedeterministický a deterministický zásobníkový automat jsou, co se týče výpočetní síly:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "ekvivalentní",
+            "isCorrect": false
+        },
+        {
+            "text": "nedeterministický automat je silnější",
+            "isCorrect": true
+        },
+        {
+            "text": "deterministický automat je silnější",
+            "isCorrect": false
+        },
+        {
+            "text": "záleží na konkrétních automatech",
+            "isCorrect": false
+        },
+        {
+            "text": "deterministický automat je slabší",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "6) Nedeterministický a deterministický zásobníkový automat jsou, co se týče výpočetní síly:\na) ekvivalentní\nb) nedeterministický automat je silnější\nc) deterministický automat je silnější\nd) záleží na konkrétních automatech \ne) deterministický automat je slabší\nB,E   ."
+}

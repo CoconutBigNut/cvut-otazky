@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $X, Y, Z$ jsou neprázdné konečné množiny a nechť $f : Y \\to Z$ a $g : X \\to Y$ jsou nějaká (totální) zobrazení. Z následujících výroků vyberte všechny pravdivé. (Pozn. $(f \\circ g)(x) = f(g(x))$.)",
+    "answers": [
+        {
+            "text": "$f \\circ g$ je injektivní právě tehdy když $f$ a $g$ jsou injektivní.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud má množina $X$ více prvků než množina $Y$, potom musí být $g$ surjektivní.",
+            "isCorrect": false
+        },
+        {
+            "text": "Existují $X, Y, Z$ a $f, g$ takové, že $f \\circ g = g \\circ g$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Je-li $f \\circ g$ bijektivní, potom je $g$ injektivní.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "relace"
+    ],
+    "questionType": "multichoice"
+}

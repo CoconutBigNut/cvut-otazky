@@ -1,0 +1,27 @@
+{
+    "question": "Jaká je složitost (v nejhorším případě) algoritmu, který rozhoduje jazyk (tzn. zda je slovo z jazyka či ne) pro regulární gramatiku?",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$\\Theta(n)$",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\Theta(n^2)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(2^n)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(1)$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "74) Jaká je složitost(v nejhorším případě) algoritmu, který rozhoduje jazyk (tzn. zda je slovo z jazyka či ne) pro regulární gramatiku\n a) Θ(n)\n b) Θ(n^2)\n c) Θ(2^n)\n d) Θ(1)\nA      ."
+}

@@ -1,0 +1,32 @@
+{
+    "question": "Jazyk $L = \\{xux \\mid x \\in \\{0, 1\\}^*, u \\in \\{0, 1\\}\\}$ je možné",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "přijímat konečným automatem",
+            "isCorrect": false
+        },
+        {
+            "text": "přijímat zásobníkovým automatem",
+            "isCorrect": false
+        },
+        {
+            "text": "popsat regulárním výrazem",
+            "isCorrect": false
+        },
+        {
+            "text": "přijímat Turingovým strojem",
+            "isCorrect": true
+        },
+        {
+            "text": "přijímat lineárně omezeným Turingovým strojem",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Kontextové jazyky",
+        "Rekurzivně spočetné jazyky",
+        "google-doc"
+    ],
+    "originalText": "125) Jazyk L={xux:x{0,1}*, u{0,1}} je možné\na) přijímat konečným automatem\nb) přijímat zásobníkovým automatem\nc) popsat regulárním výrazem\nd) přijímat Turingovým strojem\ne) přijímat lineárně omezeným Turingovým strojem\nD,E     ."
+}

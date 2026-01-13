@@ -1,0 +1,13 @@
+{
+    "question": "V ano/ne dotazníku je 10 otázek, na 6 z nich je správná odpověď ANO, na ostatní je odpověď NE, nevíme ovšem, které jsou které. Kolikrát je třeba tento dotazník vyplnit (pokaždé jinak), aby alespoň jedno vyplnění bylo kompletně správné? (zapište jednoduše číslem, bez jakýchkoli početních operací)",
+    "answers": [
+        {
+            "text": "210",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "kombinatorika"
+    ],
+    "questionType": "open"
+}

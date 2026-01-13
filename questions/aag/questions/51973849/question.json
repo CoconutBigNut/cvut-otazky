@@ -1,0 +1,28 @@
+{
+    "question": "Každý konečný jazyk (obsahující konečný počet vět) je:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "regulární jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "bezkontextový jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "kontextový jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "rekurzivně spočetný jazyk",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "20) Každý konečný jazyk (obsahující konečný počet vět) je: \na) regulární jazyk\nb) bezkontextový jazyk\nc) kontextový jazyk\nd) rekurzivně spočetný jazyk\n A,B,C,D  ."
+}

@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $L_K$ je libovolný konečný jazyk. O každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$) či nepravdivé ($\\times$):",
+    "answers": [
+        {
+            "text": "$L_K$ je určitě rekurzivně spočetný jazyk.",
+            "isCorrect": true
+        },
+        {
+            "text": "$L_K$ je určitě bezkontextový jazyk.",
+            "isCorrect": true
+        },
+        {
+            "text": "$L_K$ je určitě kontextový jazyk.",
+            "isCorrect": true
+        },
+        {
+            "text": "Existuje $L_K$ takový, že jej nelze přijmout lineárně omezeným Turingovým strojem.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "formalni-jazyky-gramatiky-a-jejich-klasifikace"
+    ],
+    "questionType": "multichoice"
+}

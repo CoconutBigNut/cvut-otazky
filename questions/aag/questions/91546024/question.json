@@ -1,0 +1,28 @@
+{
+    "question": "Jazyk $L = \\{a^n b^n : 8 \\geq n \\geq 0\\}$ je možné:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "přijímat konečným automatem",
+            "isCorrect": true
+        },
+        {
+            "text": "popsat regulárním výrazem",
+            "isCorrect": true
+        },
+        {
+            "text": "přijímat zásobníkovým automatem",
+            "isCorrect": true
+        },
+        {
+            "text": "přijímat Turingovým strojem",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "33) Jazyk   L={anbn:8≥n≥0} je možné:\na) přijímat konečným automatem \nb) popsat regulárním výrazem\nc) přijímat zásobníkovým automatem\nd) přijímat Turingovým strojem\nA,B,C,D ."
+}

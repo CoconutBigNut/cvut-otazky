@@ -1,0 +1,25 @@
+{
+    "question": "Vyberte pravdivé tvrzení pro vektorovou posloupnost $(\\mathbf{x}_k)_{k=1}^\\infty$, $\\mathbf{x}_k = ((-1)^k, \\frac{1}{k})$.",
+    "answers": [
+        {
+            "text": "Limita $\\mathbf{x}_k$ neexistuje.",
+            "isCorrect": true
+        },
+        {
+            "text": "Existují dvě limity $\\mathbf{x}_k$ $(-1, 0)$ a $(1,0)$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Existují dva hromadné body $(-1, 0)$ a $(1,0)$.",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\mathbf{x}_k$ konverguje.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "0401-rozstrel"
+    ],
+    "questionType": "multichoice"
+}

@@ -1,0 +1,27 @@
+{
+    "question": "Zásobníkový automat, metoda zdola nahoru $L(Z) = L(G) = \\emptyset$:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$Z$ má konstantní počet stavů",
+            "isCorrect": true
+        },
+        {
+            "text": "Gramatika $G$ je bezkontextová",
+            "isCorrect": true
+        },
+        {
+            "text": "Přijímá bezkontextové jazyky",
+            "isCorrect": true
+        },
+        {
+            "text": "Neobsahuje cykly",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "google-doc",
+        "Bezkontextové gramatiky"
+    ],
+    "originalText": " 41) Zásobníkový automat, metoda zdola nahoru L(Z) = L(G) = prázdná množina \na) Z má konstantní počet stavů \nb) gramatika G je bezkontextová \nc) přijímá bezkontextové jazyky \nd) neobsahuje cykly\nA,B,C     ."
+}

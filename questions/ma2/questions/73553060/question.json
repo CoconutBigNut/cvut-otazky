@@ -1,0 +1,25 @@
+{
+    "question": "Vyberte pravdivá tvrzení o lineární rekurentní rovnici\n$x_{n+2} - 3x_{n+1} - 4x_n = n4^n$, $n \\geq 1$.",
+    "answers": [
+        {
+            "text": "Existují konstanty $A, B$ takové, že partikulární řešení této rovnice je tvaru $(An + B)4^n$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Každé řešení přidružené homogenní rovnice je lineární kombinací posloupností $(4^n)_{n=1}^\\infty$ a $((-1)^n)_{n=1}^\\infty$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Existují konstanty $A, B$ takové, že partikulární řešení této rovnice je tvaru $(An^2 + Bn)4^n$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Existují konstanty $A, B, C$ takové, že partikulární řešení této rovnice je tvaru $(An^2 + Bn + C)4^n$.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "linearni-rekurentni-rovnice"
+    ],
+    "questionType": "multichoice"
+}

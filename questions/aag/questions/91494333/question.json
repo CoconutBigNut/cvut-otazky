@@ -1,0 +1,28 @@
+{
+    "question": "Máme gramatiku s pravidly $S \\to SaSb \\mid \\varepsilon$. Jaký jazyk generuje:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "regulární",
+            "isCorrect": false
+        },
+        {
+            "text": "bezkontextový",
+            "isCorrect": true
+        },
+        {
+            "text": "kontextový",
+            "isCorrect": true
+        },
+        {
+            "text": "rekurzivně spočetný",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "70) Máme gramatiku s pravidly S → SaSb | ε. Jaký jazyk generuje:\na) regulární\nb) bezkontextový\nc) kontextový\nd) rekurzivně spočetný\n   B,C,D."
+}

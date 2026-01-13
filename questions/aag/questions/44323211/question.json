@@ -1,0 +1,27 @@
+{
+    "question": "Metody převodu $KA$ do $RV$:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "derivace",
+            "isCorrect": false
+        },
+        {
+            "text": "integrálů",
+            "isCorrect": true
+        },
+        {
+            "text": "eliminaci neterminálů",
+            "isCorrect": false
+        },
+        {
+            "text": "sousedů",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "60) Metody převodu KA do RV\na) derivace\nb) integrálů\nc) eliminaci neterminálů\nd) sousedů \nB        ."
+}

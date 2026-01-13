@@ -1,0 +1,25 @@
+{
+    "question": "Mějme konečný automat $M = (Q, \\Sigma, \\delta, q_0, F)$, kde $L(M) = \\emptyset$. O každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$) či nepravdivé ($\\times$):",
+    "answers": [
+        {
+            "text": "Pro $M$ vždy platí, že všechny stavy jsou nedosažitelné.",
+            "isCorrect": false
+        },
+        {
+            "text": "$M$ je vždy deterministický.",
+            "isCorrect": false
+        },
+        {
+            "text": "Existuje $M$ takový, že $q_0$ je koncový stav.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pro $M$ vždy platí, že všechny stavy jsou zbytečné.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "regularni-jazyky"
+    ],
+    "questionType": "multichoice"
+}

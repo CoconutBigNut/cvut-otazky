@@ -1,0 +1,27 @@
+{
+    "question": "Je daný jazyk bezkontextový?",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$L = \\{ a^m b^m c^m, m \\ge 0 \\}$",
+            "isCorrect": false
+        },
+        {
+            "text": "$L = \\{ a^m b^n, m \\ge 0, n \\ge 0 \\}$",
+            "isCorrect": true
+        },
+        {
+            "text": "$L = \\{ a^m b^n, m \\ge n \\}$",
+            "isCorrect": true
+        },
+        {
+            "text": "$L = \\{ a^m, m \\ge 0 \\}$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "50) Je daný jazyk bezkontextový?\na) L = { a^m b^m c^m,  m>=0 }\nb) L = { a^m b^n, m>=0, n>=0 }\nc) L = { a^m b^n, m>=n }\nd) L = { a^m, m>=0 }\nB,C,D     ."
+}

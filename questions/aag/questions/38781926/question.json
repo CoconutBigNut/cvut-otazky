@@ -1,0 +1,27 @@
+{
+    "question": "Máme nedeterministický konečný automat o $n$ stavech a lze vytvořit deterministický KA, kolik bude mít stavů:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Max $2^n$",
+            "isCorrect": true
+        },
+        {
+            "text": "Max $n$",
+            "isCorrect": false
+        },
+        {
+            "text": "Min $1$",
+            "isCorrect": true
+        },
+        {
+            "text": "Min $n$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "49) Mame nedeterministicky konecny automat o „n“ stavech a lze vytvorit deterministicky KA, kolik bude mít stavů:\na) Max 2^n\nb) Max n\nc) Min 1\nd) Min n\n   A,C      ."
+}

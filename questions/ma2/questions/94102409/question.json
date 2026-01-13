@@ -1,0 +1,25 @@
+{
+    "question": "Jsou následujících kvadraticke formy:",
+    "answers": [
+        {
+            "text": "$q(\\mathbf{x}) = (x+y+z)^2 + (y-z)^2 + z^2$ je PD",
+            "isCorrect": true
+        },
+        {
+            "text": "$q(\\mathbf{x}) = x^2 + yz$ je ID",
+            "isCorrect": true
+        },
+        {
+            "text": "$q(\\mathbf{x}) = (y+z)^2 - (y-z)^2 + 4z^2 + y^2$ je ID",
+            "isCorrect": false
+        },
+        {
+            "text": "$q(\\mathbf{x}) = (y+z)^2 + 4z^2 + y^2$ je PSD",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "08022024-rozstrel"
+    ],
+    "questionType": "multichoice"
+}

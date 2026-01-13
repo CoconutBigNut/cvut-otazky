@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $a, b, m \\in \\mathbb{N}$, přičemž $m > 1$. $\\varphi$ označuje Eulerovu funkci. Rozhodněte, která z následujících tvrzení jsou vždy pravdivá.",
+    "answers": [
+        {
+            "text": "Pokud $m$ není prvočíslo, potom $\\varphi(m) < m - 1$.",
+            "isCorrect": true
+        },
+        {
+            "text": "$a^{m-1} \\equiv 1 \\pmod{m}$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud jsou $a, b$ lichá prvočísla, potom $\\varphi(a \\cdot b) > \\varphi(a)$.",
+            "isCorrect": true
+        },
+        {
+            "text": "$a^m \\equiv 1 \\pmod{\\varphi(m)}$.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "teorie-cisel"
+    ],
+    "questionType": "multichoice"
+}

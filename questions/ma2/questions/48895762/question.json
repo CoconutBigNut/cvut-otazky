@@ -1,0 +1,25 @@
+{
+    "question": "Vyberte všechna pravdivá tvrzení.",
+    "answers": [
+        {
+            "text": "$\\sum_{k=1}^{\\infty} \\frac{x^k}{k!} = e^x, x \\in \\mathbb{R}.$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\sum_{k=1}^{\\infty} \\frac{x^k}{k!} = e^x - 1, x \\in \\mathbb{R}.$",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\sum_{k=0}^{\\infty} \\frac{(\\ln 3)^k}{k!} = 3.$",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\sum_{k=0}^{\\infty} \\frac{k}{k!} = e.$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "ciselne-a-mocninne-rady"
+    ],
+    "questionType": "multichoice"
+}

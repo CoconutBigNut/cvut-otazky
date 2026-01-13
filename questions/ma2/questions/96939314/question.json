@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $f(x) := \\sum_{k=0}^{\\infty} \\frac{x^k}{k!} = e^x$. Vyberte všechna správná tvrzení:",
+    "answers": [
+        {
+            "text": "$x \\in D_f, x > 0 \\implies f(x) > 1+x$",
+            "isCorrect": true
+        },
+        {
+            "text": "$f(x+y) = f(x) \\cdot f(y) \\quad \\forall x, y \\in D_f$",
+            "isCorrect": true
+        },
+        {
+            "text": "$D_f = \\mathbb{R}$",
+            "isCorrect": true
+        },
+        {
+            "text": "$f(1) = e$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "2501-rozstrel"
+    ],
+    "questionType": "multichoice"
+}

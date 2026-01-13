@@ -1,0 +1,25 @@
+{
+    "question": "O každém z následujících tvrzení rozhodněte, zdali je pravdivé či nepravdivé.",
+    "answers": [
+        {
+            "text": "Existuje konečný automat s nekonečným počtem stavů.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pro každý bezkontextový jazyk existuje konečný automat, který jej přijímá.",
+            "isCorrect": false
+        },
+        {
+            "text": "Konečné automaty mají zásobník neomezené velikosti.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pro každý jazyk $L$, který lze přijímat konečným automatem, existuje regulární gramatika $G$ taková, že $L(G) = L$.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "regularni-jazyky"
+    ],
+    "questionType": "multichoice"
+}

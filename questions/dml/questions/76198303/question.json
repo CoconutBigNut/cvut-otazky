@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $A, B, C$ jsou nějaké podmnožiny společného univerza $\\mathcal{U}$ a nechť platí $A \\subseteq B$. Vyberte z následujících tvrzení všechna, která jsou vždy pravdivá (nezávisle na volbě $A, B, C$ splňujících předpoklady).",
+    "answers": [
+        {
+            "text": "$(A \\cap B) \\cup (A \\setminus B) = A.$",
+            "isCorrect": true
+        },
+        {
+            "text": "$A \\times (B \\setminus C) = (A \\times B) \\setminus (A \\times C).$",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\overline{(A \\times B)} = \\bar{A} \\times \\bar{B}.$",
+            "isCorrect": false
+        },
+        {
+            "text": "$A \\setminus (B \\cup C) = (A \\setminus B) \\cap (A \\setminus C).$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "mnoziny"
+    ],
+    "questionType": "multichoice"
+}

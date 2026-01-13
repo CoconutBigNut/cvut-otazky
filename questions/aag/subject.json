@@ -1,0 +1,37 @@
+{
+    "name": "Automaty a Gramatiky",
+    "code": "aag",
+    "description": "Popis aag",
+    "primaryColor": "#24a1aa",
+    "secondaryColor": "#2e8d94",
+    "topics": [
+        {
+            "id": "bezkontextove-gramatiky",
+            "name": "Bezkontextové gramatiky"
+        },
+        {
+            "id": "formalni-jazyky-gramatiky-a-jejich-klasifikace",
+            "name": "Formální jazyky, gramatiky a jejich klasifikace"
+        },
+        {
+            "id": "formalni-preklady",
+            "name": "Formální překlady"
+        },
+        {
+            "id": "kontextove-jazyky",
+            "name": "Kontextové jazyky"
+        },
+        {
+            "id": "regularni-jazyky",
+            "name": "Regulární jazyky"
+        },
+        {
+            "id": "rekurzivne-spocetne-jazyky",
+            "name": "Rekurzivně spočetné jazyky"
+        },
+        {
+            "id": "google-doc",
+            "name": "FitWiki Google Doc"
+        }
+    ]
+}

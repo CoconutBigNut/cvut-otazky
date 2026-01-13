@@ -1,0 +1,23 @@
+{
+    "question": "Pro $\\overline{L_1} = L_2$ platí:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$L_1$ se může rovnat $L_2$",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud je $L_3$ doplněk $L_2$, pak $L_1 = L_3$",
+            "isCorrect": true
+        },
+        {
+            "text": "$L_1$ je bezkontextový, pak $L_2$ může být regulární",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "99) Pro  L1 =  L2 platí\na) L1 se může rovnat L2\nb) pokud je L3 doplněk L2, pak L1=L3\nc) L1 je bezkontextový, pak L2 může být regulární\nB,C    ."
+}

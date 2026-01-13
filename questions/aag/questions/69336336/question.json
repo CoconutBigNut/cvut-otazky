@@ -1,0 +1,31 @@
+{
+    "question": "Pro zásobníkový automat přijímající jazyk $L$ koncovým stavem platí vždy, že:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Lze sestrojit lineárně omezený Turingův stroj přijímající jazyk $L$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Pokud tento automat není deterministický, pak lze sestrojit ekvivalentní deterministický ZA.",
+            "isCorrect": false
+        },
+        {
+            "text": "Tento automat je deterministický.",
+            "isCorrect": false
+        },
+        {
+            "text": "Tento automat přijímá bezkontextový jazyk.",
+            "isCorrect": true
+        },
+        {
+            "text": "Lze sestrojit KA přijímající jazyk $L$.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "google-doc",
+        "Bezkontextové gramatiky"
+    ],
+    "originalText": "128) Pro zásobníkový automat přijímající jazyk L koncovým stavem platí vždy, že:\n a) Lze sestrojit lineárně omezený Turingův stroj přijímající jazyk L.\n b) Pokud tento automat není deterministický, pak lze sestrojit ekvivalentní deterministický ZA.\n c) Tento automat je deterministický.\n d) Tento automat přijímá bezkontextový jazyk.\n e) Lze sestrojit KA přijímající jazyk L\nA,D      ."
+}

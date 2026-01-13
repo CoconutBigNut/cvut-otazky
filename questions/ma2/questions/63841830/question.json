@@ -1,0 +1,25 @@
+{
+    "question": "Mějme zobrazení $f: \\mathbb{R}^3 \\to \\mathbb{R}$ dané předpisem $f(x, y, z) = x^2y - y^2z + 2x + z$. Vyberte všechny pravdivé výroky.",
+    "answers": [
+        {
+            "text": "Funkce nemá na celém $\\mathbb{R}^3$ lokální maximum ani lokální minimum.",
+            "isCorrect": true
+        },
+        {
+            "text": "Množina stacionárních bodů je nekonečná.",
+            "isCorrect": false
+        },
+        {
+            "text": "Množina stacionárních bodů je konečná.",
+            "isCorrect": true
+        },
+        {
+            "text": "Funkce $f$ má právě jeden sedlový bod.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "diferencialni-pocet-funkci-vice-promennych"
+    ],
+    "questionType": "multichoice"
+}

@@ -1,0 +1,25 @@
+{
+    "question": "O každém z následujících tvrzení rozhodněte, zdali patří (✓) či nepatří (×) do množiny regulárních výrazů nad abecedou $\\Sigma$:",
+    "answers": [
+        {
+            "text": "$\\varepsilon$",
+            "isCorrect": true
+        },
+        {
+            "text": "($x . y$), kde $x$ a $y$ jsou regulární výrazy nad abecedou $\\Sigma$",
+            "isCorrect": true
+        },
+        {
+            "text": "($x \\cup y$), kde $x$ a $y$ jsou regulární výrazy nad abecedou $\\Sigma$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\mathbf{a}$, kde $\\mathbf{a} \\in \\Sigma$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "regularni-jazyky"
+    ],
+    "questionType": "multichoice"
+}

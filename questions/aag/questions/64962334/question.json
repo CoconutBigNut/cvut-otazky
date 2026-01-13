@@ -1,0 +1,27 @@
+{
+    "question": "Metoda eliminace stavů pro daný automat:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Vyžaduje jako vstup konečný automat",
+            "isCorrect": true
+        },
+        {
+            "text": "Vyžaduje jako vstup deterministický konečný automat",
+            "isCorrect": false
+        },
+        {
+            "text": "Vytváří vždy regulární výraz",
+            "isCorrect": true
+        },
+        {
+            "text": "Vyžaduje jako vstup konečný automat bez $\\varepsilon$ přechodů.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "134) Metoda eliminace stavů pro daný automat:\nVyžaduje jako vstup konečný automat\nVyžaduje jako vstup deterministický konečný automat\nVytváří vždy regulární výraz\nVyžaduje jako vstup konečný automat bez ε přechodů.\nA,C        ."
+}

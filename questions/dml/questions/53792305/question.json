@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $a, b, c, e, f \\in \\mathbb{Z}$ jsou libovolná celá čísla. Uvažujme relaci dělitelnosti beze zbytku, značené $|$, na množině celých čísel $\\mathbb{Z}$. Vyznačte všechna pravdivá tvrzení v následující nabídce:",
+    "answers": [
+        {
+            "text": "Jestliže $a|b$ a $a|c$, pak $a|(b - c)$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Jestliže $a|bc$, pak $a|b$ nebo $a|c$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud je $bc \\le a$, pak $\\text{gcd}(a, b) = \\text{gcd}(a, bc)$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud $a|c$ a $b|c$, pak $\\text{lcm}(a, b)|c$.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "relace"
+    ],
+    "questionType": "multichoice"
+}

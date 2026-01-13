@@ -1,0 +1,13 @@
+{
+    "question": "Určete hodnotu mocniny $135^{135} \\pmod{17}$.",
+    "answers": [
+        {
+            "text": "16",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "teorie-cisel"
+    ],
+    "questionType": "open"
+}

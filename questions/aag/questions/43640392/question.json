@@ -1,0 +1,27 @@
+{
+    "question": "Pro zásobníkový automat přijímající jazyk $L$ koncovým stavem platí vždy, že:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "lze sestrojit zásobníkový automat přijímající jazyk $L$ prázdným zásobníkem",
+            "isCorrect": true
+        },
+        {
+            "text": "nelze sestrojit zásobníkový automat přijímající jazyk $L$ prázdným zásobníkem",
+            "isCorrect": false
+        },
+        {
+            "text": "záleží na jazyku $L$, jestli lze sestrojit zásobníkový automat přijímající jazyk $L$ prázdným zásobníkem",
+            "isCorrect": false
+        },
+        {
+            "text": "lze sestrojit konečný automat přijímající jazyk $L$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "14) Pro zásobníkový automat přijímající jazyk L koncovým stavem platí vždy, že:\na) lze sestrojit zásobníkový automat přijímající jazyk L prázdným zásobníkem \nb) nelze sestrojit zásobníkový automat přijímající jazyk L prázdným zásobníkem\nc) záleží na jazyku L jestli lze sestrojit zásobníkový automat přijímající jazyk L prázdným zásobníkem\nd) lze sestrojit konečný automat přijímající jazyk L\nA            ."
+}

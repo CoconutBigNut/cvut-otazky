@@ -1,0 +1,27 @@
+{
+    "question": "Z $RV$ je možné sestrojit $KA$ metodou:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "derivací",
+            "isCorrect": true
+        },
+        {
+            "text": "postupnou konstrukcí",
+            "isCorrect": true
+        },
+        {
+            "text": "regulárních rovnic",
+            "isCorrect": false
+        },
+        {
+            "text": "eliminací stavů",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "54) Z RV je možné sestrojit KA metodou:\na) derivací\nb) postupnou konstrukcí\nc) regulárních rovnic\nd) eliminací stavů\n A,B     ."
+}

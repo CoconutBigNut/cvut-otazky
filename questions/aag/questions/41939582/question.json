@@ -1,0 +1,24 @@
+{
+    "question": "Jazyk $L = \\{ a^n b^m : m \\neq n, m \\geq 2, n \\geq 1 \\}$ je možné:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Přijímat konečným automatem",
+            "isCorrect": false
+        },
+        {
+            "text": "Přijímat zásobníkovým automatem",
+            "isCorrect": true
+        },
+        {
+            "text": "Popsat regulárním výrazem",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "12) Jazyk  L={anbm:m≠n,m≥2,n≥1}je možné:\na) přijímat konečným automatem\nb) přijímat zásobníkovým automatem \nc) popsat regulárním výrazem\n B           ."
+}

@@ -1,0 +1,27 @@
+{
+    "question": "Pro libovolný jazyk generovaný známou bezkontextovou gramatikou o konstantní velikosti lze pro vstupní slovo délky $n$ určitě rozhodnout, zda slovo do jazyka patří, v čase nejhůře:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$\\Theta(1)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(n)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(n^2)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\Theta(n^3)$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "25) Pro libovolný jazyk generovaný známou bezkontextovou gramatikou o konstantní velikost lze pro vstupní slovo délky n určitě rozhodnout, zda slovo do jazyka patří, v čase nejhůře:\na) Θ(1)\nb) Θ(n)\nc) Θ(n^2)\nd) Θ(n^3) \n\n D            ."
+}

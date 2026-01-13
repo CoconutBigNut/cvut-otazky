@@ -1,0 +1,27 @@
+{
+    "question": "Rozhodněte, jakého typu je následující gramatika v Chomského klasifikaci gramatik: $G = (\\{S, A, B, H\\}, \\{a, b\\}, P, S)$, kde $P = \\{S \\rightarrow a, S \\rightarrow AB, A \\rightarrow b, B \\rightarrow d, B \\rightarrow BcA, aA \\rightarrow ab\\}$.",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "regulární",
+            "isCorrect": false
+        },
+        {
+            "text": "bezkontextová",
+            "isCorrect": false
+        },
+        {
+            "text": "kontextová",
+            "isCorrect": false
+        },
+        {
+            "text": "neomezená",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "3) Rozhodněte, jakého typu je následující gramatika v Chomského klasifikaci gramatik. \n ({S,A,B,H},{a,b},P,S), kde  P={S→a,S→AB,A→b,B→d,B→BcA,aA→ab}\na) regulární\nb) bezkontextová\nc) kontextová\nd) neomezená  \n     BACHA - c d nejsou ve vstupní abecedě! => nic"
+}

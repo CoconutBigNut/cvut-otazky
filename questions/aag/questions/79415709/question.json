@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujte následující gramatiku $G$:\n\n$$G = (\\{A, B, S\\}, \\{a, b\\}, P, S)$$\n\n$$P = \\{S \\rightarrow ABa, B \\rightarrow b \\mid BaA, aA \\rightarrow ab\\}$$\n\nO každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$) či nepravdivé ($\\times$):",
+    "answers": [
+        {
+            "text": "$G$ je kontextová gramatika.",
+            "isCorrect": true
+        },
+        {
+            "text": "$G$ je bezkontextová gramatika.",
+            "isCorrect": false
+        },
+        {
+            "text": "$G$ je neomezená gramatika.",
+            "isCorrect": true
+        },
+        {
+            "text": "$G$ je regulární gramatika.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "formalni-jazyky-gramatiky-a-jejich-klasifikace"
+    ],
+    "questionType": "multichoice"
+}

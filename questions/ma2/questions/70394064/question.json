@@ -1,0 +1,25 @@
+{
+    "question": "Vyberte všechna pravdivá tvrzení.",
+    "answers": [
+        {
+            "text": "$\\displaystyle \\int_{1}^{+\\infty} \\frac{1}{x^2} dx = 1$",
+            "isCorrect": true
+        },
+        {
+            "text": "Integrál $\\displaystyle \\int_{1}^{+\\infty} \\frac{1}{x^2} dx$ diverguje.",
+            "isCorrect": false
+        },
+        {
+            "text": "Integrál $\\displaystyle \\int_{1}^{+\\infty} \\frac{1}{\\sqrt{x}} dx$ diverguje.",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\displaystyle \\int_{-1}^{1} x^3 e^{x^4} dx = 0$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "urcity-integral"
+    ],
+    "questionType": "multichoice"
+}

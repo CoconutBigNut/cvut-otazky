@@ -1,0 +1,25 @@
+{
+    "question": "Mějme neprázdnou množinu $A$ a na ní tři navzájem různé ekvivalence $R, S, T$, pro které navíc platí $R \\subsetneq S$. Nechť $a, b \\in A$ jsou nějaké dva různé prvky, které jsou $R$-ekvivalentní (tj. $aRb$). Vyberte z následující nabídky všechna nutně pravdivá tvrzení.",
+    "answers": [
+        {
+            "text": "$[a]_S \\subseteq [a]_R$",
+            "isCorrect": false
+        },
+        {
+            "text": "$[a]_R \\subseteq [a]_S$",
+            "isCorrect": true
+        },
+        {
+            "text": "$[a]_R \\cap [a]_T \\neq \\emptyset$",
+            "isCorrect": true
+        },
+        {
+            "text": "$[a]_R \\cap [a]_T = \\emptyset$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "relace"
+    ],
+    "questionType": "multichoice"
+}

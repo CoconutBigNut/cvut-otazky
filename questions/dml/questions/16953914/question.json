@@ -1,0 +1,13 @@
+{
+    "question": "Určete hodnotu mocniny $12345^{6789} \\pmod{43}$.",
+    "answers": [
+        {
+            "text": "11",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "teorie-cisel"
+    ],
+    "questionType": "open"
+}

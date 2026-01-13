@@ -1,0 +1,28 @@
+{
+    "question": "Zadaná gramatika $G = (\\{A, B\\}, \\{a, b, c\\}, \\{A \\to Ba \\mid bA, B \\to \\epsilon\\}, A)$ je:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Kontextová",
+            "isCorrect": false
+        },
+        {
+            "text": "Bezkontextová",
+            "isCorrect": true
+        },
+        {
+            "text": "Neomezená",
+            "isCorrect": true
+        },
+        {
+            "text": "Regulární",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "89) Zadaná gramatika  G=({A,B},{a,b,c},{A→Ba|bA,B→ε},A) je:\na) kontextová\nb) bezkontextová \nc) neomezená\nd) regulární\nB,C     ."
+}

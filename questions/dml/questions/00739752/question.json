@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $A, B, C$ jsou nějaké podmnožiny společného univerza $\\mathcal{U}$. Vyberte z následujících tvrzení všechna, která jsou vždy pravdivá (nezávisle na volbě $A, B, C$ splňujících předpoklady).",
+    "answers": [
+        {
+            "text": "$A \\cap (B \\cup C) = (A \\cap B) \\cup C$",
+            "isCorrect": false
+        },
+        {
+            "text": "$(B \\setminus C) \\cup (B \\cap C) = B$",
+            "isCorrect": true
+        },
+        {
+            "text": "$A \\cup (B \\setminus C) = (A \\cup B) \\setminus (A \\cup C)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$A \\setminus (B \\cap C) = (A \\setminus B) \\cap C$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "mnoziny"
+    ],
+    "questionType": "multichoice"
+}

@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujte rekurentní rovnici: $x_{n+2} - x_{n+1} + x_n = 0$. Která z následujících tvrzení jsou pravdivá?",
+    "answers": [
+        {
+            "text": "$p(\\lambda) = \\lambda^2 - \\lambda + 1$",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\left( \\cos\\left(\\frac{n\\pi}{3}\\right) \\right)_{n=0}^\\infty$ je řešením.",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\left( \\left(\\sin\\left(\\frac{\\pi}{3}\\right)\\right)^n \\right)_{n=0}^\\infty$ je řešením.",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\left( \\frac{(1+\\sqrt{3})^n}{2^n} \\right)_{n=0}^\\infty$ je řešením.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "29012025-rozstrel"
+    ],
+    "questionType": "multichoice"
+}

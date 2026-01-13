@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujte následující gramatiku $G$:\n$$G = (\\{S, Z\\}, \\{0, 1\\}, P, S)$$\n$$P = \\{ S \\to \\varepsilon \\mid 0Z \\mid 1, 0S1 \\to 0Z01 \\}$$\nO každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$) či nepravdivé ($\\times$):",
+    "answers": [
+        {
+            "text": "$L(G)$ je regulární jazyk.",
+            "isCorrect": true
+        },
+        {
+            "text": "$G$ je regulární gramatika.",
+            "isCorrect": false
+        },
+        {
+            "text": "$G$ je bezkontextová gramatika.",
+            "isCorrect": false
+        },
+        {
+            "text": "$L(G)$ je konečný jazyk.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "formalni-jazyky-gramatiky-a-jejich-klasifikace"
+    ],
+    "questionType": "multichoice"
+}

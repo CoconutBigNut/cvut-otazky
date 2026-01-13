@@ -1,0 +1,25 @@
+{
+    "question": "Máme kvadratickou formu určenou maticí $M = \\begin{pmatrix} 2 & 2 \\\\ 2 & \\alpha \\end{pmatrix}$",
+    "answers": [
+        {
+            "text": "Forma je PD pro všechny $\\alpha > 2$",
+            "isCorrect": true
+        },
+        {
+            "text": "Forma je PSD pro $\\alpha = 2$",
+            "isCorrect": true
+        },
+        {
+            "text": "Forma je ID pro $\\alpha < 0$",
+            "isCorrect": true
+        },
+        {
+            "text": "Forma je ID pro $\\alpha < 1$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "0401-rozstrel"
+    ],
+    "questionType": "multichoice"
+}

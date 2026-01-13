@@ -1,0 +1,27 @@
+{
+    "question": "Zásobníkový automat přijímající jazyk koncovým stavem a zásobníkový automat přijímající jazyk prázdným zásobníkem jsou co do výpočetní síly:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "ekvivalentní",
+            "isCorrect": true
+        },
+        {
+            "text": "vztah nelze stanovit",
+            "isCorrect": false
+        },
+        {
+            "text": "zásobníkový automat přijímající koncovým stavem je silnější než přijímající prázdným",
+            "isCorrect": false
+        },
+        {
+            "text": "zásobníkový automat přijímající koncovým stavem je slabší než přijímající prázdným",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "104) Zásobníkový automat přijímající jazyk koncovým stavem a zásobníkový automat přijímající jazyk prázdným zásobníkem je co do výpočetní síly:\n   a) ekvivalentní.\n   b) vztah nelze stanovit.\n   c) zásobníkový automat příjmající koncovým stavem je silnější než příjmající prázdným.\n   d) zásobníkový automat příjmající koncovým stavem je slabší než příjmající prázdným. \nA        ."
+}

@@ -1,0 +1,28 @@
+{
+    "question": "Nechť $L_1 = h(a^*bb)$ a $L_2 = h(b^*aa)$, potom $L_1 \\cap L_2$ může obsahovat:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$\\varepsilon$",
+            "isCorrect": false
+        },
+        {
+            "text": "$aa$",
+            "isCorrect": false
+        },
+        {
+            "text": "$abab$",
+            "isCorrect": false
+        },
+        {
+            "text": "$bbbb$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "76) Nechť L1=h(a*bb), L2=h(b*aa), potom L1 průnik L2 může obsahovat.\na) ε\nb) aa\nc) abab\nd) bbbb\nNIC      ."
+}

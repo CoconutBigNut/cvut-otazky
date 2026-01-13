@@ -1,0 +1,27 @@
+{
+    "question": "Vyberte správné znění Pumping Lemma (PL) pro regulární jazyky vyjádřené pomocí kvantifikátorů:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$(\\forall L \\in \\mathcal{L}_{REG})(\\exists p \\in \\mathbb{N})(\\forall w \\in L: |w| \\ge p)(\\exists x, y, z \\in \\Sigma^*: w = xyz \\land y \\neq \\varepsilon \\land |xy| \\le p \\land \\forall i \\ge 0: xy^iz \\in L)$",
+            "isCorrect": true
+        },
+        {
+            "text": "$(\\forall L \\in \\mathcal{L}_{REG})(\\exists p > 1)(\\forall w \\in L: |w| \\ge p)(\\exists x, y, z \\in \\Sigma^*: w = xyz \\land y \\neq \\varepsilon \\land |xy| \\le p \\land \\forall i \\ge 0: xy^iz \\in L)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$(\\forall L \\in \\mathcal{L}_{REG})(\\forall p \\in \\mathbb{N})(\\forall w \\in L: |w| \\ge p)(\\exists x, y, z \\in \\Sigma^*: w = xyz \\land y \\neq \\varepsilon \\land |xy| \\le p \\land \\forall i \\ge 0: xy^iz \\in L)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$(\\forall L \\in \\mathcal{L}_{REG})(\\exists p \\in \\mathbb{N})(\\forall w \\in L: |w| \\ge p)(\\exists x, y, z \\in \\Sigma^*: w = xyz \\land |y| \\ge 0 \\land |xy| \\le p \\land \\forall i \\ge 0: xy^iz \\in L)$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "107) Znění Pumping Lemma pomocí kvantifikátorů, možnosti se lišily například tím, že tam místo existuje bylo pro všechny platí, nebo že p>1 atd.. Takže naučit se přesné znění PL! ?? ."
+}

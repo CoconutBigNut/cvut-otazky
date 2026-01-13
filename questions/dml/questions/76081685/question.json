@@ -1,0 +1,25 @@
+{
+    "question": "Nechť $R$ je symetrická a tranzitivní relace na konečné množině $A$ taková, že pro nejméně jednu dvojici různých prvků $a, b \\in A$ platí $aRb$ a současně $bRa$. Potom pro relaci $R \\cup R^{-1}$ platí:",
+    "answers": [
+        {
+            "text": "nemůže být ireflexivní.",
+            "isCorrect": true
+        },
+        {
+            "text": "může i nemusí být reflexivní.",
+            "isCorrect": true
+        },
+        {
+            "text": "může i nemusí být antisymetrická.",
+            "isCorrect": false
+        },
+        {
+            "text": "je vždy reflexivní.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "relace"
+    ],
+    "questionType": "multichoice"
+}

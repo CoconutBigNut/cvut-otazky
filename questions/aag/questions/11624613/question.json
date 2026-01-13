@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujte metodu eliminací stavů pro převod konečného automatu $M$ na regulární výraz $V$. O každém z následujících tvrzení rozhodněte, zdali je pravdivé či nepravdivé:",
+    "answers": [
+        {
+            "text": "$M$ musí být minimální deterministický konečný automat.",
+            "isCorrect": false
+        },
+        {
+            "text": "$M$ musí být úplně určený.",
+            "isCorrect": false
+        },
+        {
+            "text": "Existuje $M$ takový, že $V = \\emptyset$.",
+            "isCorrect": true
+        },
+        {
+            "text": "$M$ musí být deterministický konečný automat.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "regularni-jazyky"
+    ],
+    "questionType": "multichoice"
+}

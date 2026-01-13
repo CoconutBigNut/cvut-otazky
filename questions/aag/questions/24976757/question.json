@@ -1,0 +1,43 @@
+{
+    "question": "Mějme úplně určené automaty $A$ a $B$ přijímající stejný jazyk. $A$ má $n$ stavů, $B$ má $m$ stavů. Pokud oba automaty zdeterminizujete a zminimalizujete, vzniknou automaty $A_1$ a $B_2$. Platí:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "automat $A_1$ bude mít více stavů než $B_2$",
+            "isCorrect": false
+        },
+        {
+            "text": "automat $A_1$ bude mít méně stavů než $B_2$",
+            "isCorrect": false
+        },
+        {
+            "text": "nelze obecně určit vztah mezi počtem stavů $A_1$ a $B_2$",
+            "isCorrect": false
+        },
+        {
+            "text": "automat $A_1$ bude mít více přechodů než $B_2$",
+            "isCorrect": false
+        },
+        {
+            "text": "automat $A_1$ bude mít méně přechodů než $B_2$",
+            "isCorrect": false
+        },
+        {
+            "text": "nelze obecně určit vztah mezi počtem přechodů $A_1$ a $B_2$",
+            "isCorrect": false
+        },
+        {
+            "text": "automat $A_1$ bude mít stejně stavů jako $B_2$",
+            "isCorrect": true
+        },
+        {
+            "text": "automat $A_1$ bude mít stejně přechodů jako $B_2$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "google-doc",
+        "Regulární jazyky"
+    ],
+    "originalText": "30) Mějme úplně určené automaty A a B přijímají stejný jazyk. A má n stavů, B má m stavů. Pokud oba automaty zdeterminizujete a zminimalizujete vzniknou automaty A1 a B2. Platí:\na) automat A1 bude mít více stavů než B2\nb) automat A1 bude mít méně stavů než B2\nc) nelze obecně určit vztah mezi počtem stavů A1 a B2\nd) automat A1 bude mít více přechodů než B2 \ne) automat A1 bude mít méně přechodů než B2\nf) nelze obecně určit vztah mezi počtem přechodů A1 a B2\ng) automat A1 bude mít stejně stavů jako B2\nh) automat A1 bude mít stejně přechodů jako B2\nG,H        .  "
+}

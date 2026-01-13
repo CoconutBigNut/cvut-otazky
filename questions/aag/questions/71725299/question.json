@@ -1,0 +1,23 @@
+{
+    "question": "Máme $DKA$, který přijímá nekonečný jazyk. Pro tento $DKA$ platí:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Má nekonečně mnoho stavů",
+            "isCorrect": false
+        },
+        {
+            "text": "Má alespoň 1 přechod zpět do startovacího stavu",
+            "isCorrect": false
+        },
+        {
+            "text": "Přechodový diagram obsahuje cyklus",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "58) Máme DKA, který přijímá nekonečný jazyk. Pro tento DKA platí:\n     a) má nekonečně mnoho stavů\nb) má alespoň 1 přechod zpět do startovacího stavu\nc) něco\nd) přechodový diagram obsahuje cyklus\ne) přechodový diagram obsahuje alespoň jeden přechod z nějakého stavu q zpět přímo do \nD ,(C)      ."
+}

@@ -1,0 +1,28 @@
+{
+    "question": "Jak rozepsat větu z jazyka $L = \\{ww^R : w \\in \\{a, b\\}^* \\}$ v Pumping Lemma?",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$a^p b b a^p$",
+            "isCorrect": true
+        },
+        {
+            "text": "$a^2 b^2 b^2 a^2$",
+            "isCorrect": false
+        },
+        {
+            "text": "$a^* a^*$",
+            "isCorrect": false
+        },
+        {
+            "text": "$w^p w^p$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "44) Jak rozepsat větu z jazyka L = {ww^R :  w ∈  {a, b}* } v Pumping Lemma?\na) a^pbba^p\nb) a^2 b^2 b^2 a^2\nc) a* a*\nd) w^p w^p\n.A        .          "
+}

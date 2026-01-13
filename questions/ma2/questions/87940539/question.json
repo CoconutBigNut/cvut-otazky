@@ -1,0 +1,25 @@
+{
+    "question": "Rozhodněte o pravdivosti.",
+    "answers": [
+        {
+            "text": "$\\displaystyle {\\int} f(x^2) \\,dx = F(2x) + C$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\displaystyle {\\int} f(x)F(x) \\,dx = \\frac{1}{2}(F(x))^2 + C$",
+            "isCorrect": true
+        },
+        {
+            "text": "$\\displaystyle {\\int} f(x) \\,dx = xf(x) - {\\int} xF(x) \\,dx$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\displaystyle {\\int} f(x) \\,dx = \\{g(x) : (a, b) \\to \\mathbb{R} \\mid g(x) = F(x) + C, C \\in \\mathbb{R}\\}$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "04012023-rozstrel"
+    ],
+    "questionType": "multichoice"
+}

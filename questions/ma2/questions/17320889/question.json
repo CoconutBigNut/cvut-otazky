@@ -1,0 +1,25 @@
+{
+    "question": "Vyberte pravdivá tvrzení o $f(x)$, která má $\\nabla f(a) = 0$.",
+    "answers": [
+        {
+            "text": "Pokud $\\nabla^2 f(x, y)$ je PSD, tak v $a$ je neostré lokální minimum.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud $\\nabla^2 f(x, y)$ je PSD, tak v $a$ nemá extrém.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud $\\nabla^2 f(x, y)$ je PD, tak v $a$ je lokální minimum.",
+            "isCorrect": true
+        },
+        {
+            "text": "Pokud $\\nabla^2 f(x, y)$ je PD, tak v $a$ je lokální maximum.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "0401-rozstrel"
+    ],
+    "questionType": "multichoice"
+}

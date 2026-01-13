@@ -1,0 +1,25 @@
+{
+    "question": "Z následujících zobrazení vyberte všechna, která jsou na (surjektivní).",
+    "answers": [
+        {
+            "text": "$f(x) = (x, x^3), f: \\mathbb{R} \\to \\mathbb{R}^2$",
+            "isCorrect": false
+        },
+        {
+            "text": "$f(x, y) = x \\cdot y, f: \\mathbb{R}^2 \\to \\mathbb{R}$",
+            "isCorrect": true
+        },
+        {
+            "text": "$f(x, y) = \\sqrt{x^2 + y^2}, f: \\mathbb{R}^2 \\to \\mathbb{R}$",
+            "isCorrect": false
+        },
+        {
+            "text": "$f(m, n, p) = (m - n + p, n + p, -p + 2), f: \\mathbb{Z}^3 \\to \\mathbb{Z}^3$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "zobrazeni"
+    ],
+    "questionType": "multichoice"
+}

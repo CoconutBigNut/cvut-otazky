@@ -1,0 +1,27 @@
+{
+    "question": "Určete, jaký jazyk generuje gramatika $G = (\\{S, A, B\\}, \\{a, b, c\\}, \\{S \\to aS \\mid aA, A \\to bA \\mid b, SA \\to c\\}, S)$:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Regulární",
+            "isCorrect": true
+        },
+        {
+            "text": "Bezkontextový",
+            "isCorrect": true
+        },
+        {
+            "text": "Kontextový",
+            "isCorrect": true
+        },
+        {
+            "text": "Rekurzivně-spočetný",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "142) Určete, jaký jazyk generuje gramatika G = ({S,A,B}, {a,b,c}, {S->aS|aA, A->bA|b, SA->c}, S)\nRegulární\nBezkontextový\nKontextový\nRekurzivně-spočetný \nA,B,C,D ."
+}

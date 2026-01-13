@@ -1,0 +1,25 @@
+{
+    "question": "Vyberte všechna pravdivá tvrzení o mocninné řadě $\\sum_{k=1}^{\\infty} \\frac{(x+1)^k}{k}$.",
+    "answers": [
+        {
+            "text": "Tato mocninná řada diverguje pro všechna $x$ splňující $|x+1| \\geq 1$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Poloměrem konvergence této řady je $R = 1$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Tato mocninná řada konverguje pro $x \\in (-1,1)$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Pro $x \\in (-2,0)$ tato mocninná řada konverguje.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "ciselne-a-mocninne-rady"
+    ],
+    "questionType": "multichoice"
+}

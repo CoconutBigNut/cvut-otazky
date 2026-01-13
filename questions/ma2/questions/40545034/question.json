@@ -1,0 +1,25 @@
+{
+    "question": "Vyberte všechna pravdivá tvrzení o integrálu $\\displaystyle \\int_0^{+\\infty} e^{-x} dx$.",
+    "answers": [
+        {
+            "text": "Tomuto integrálu se můžeme pokusit dát dobrý smysl pomocí limity $\\displaystyle \\lim_{c \\to +\\infty} \\int_0^c e^{-x} dx$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Hodnota tohoto integrálu je 1.",
+            "isCorrect": true
+        },
+        {
+            "text": "Tento integrál nelze spočítat pomocí Riemannovy konstrukce, protože integrační interval $(0, +\\infty)$ není omezený.",
+            "isCorrect": true
+        },
+        {
+            "text": "Hodnota tohoto integrálu nemůže být reálné číslo, protože integrační interval $(0, +\\infty)$ není omezený.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "urcity-integral"
+    ],
+    "questionType": "multichoice"
+}

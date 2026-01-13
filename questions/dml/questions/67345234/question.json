@@ -1,0 +1,25 @@
+{
+    "question": "Z následujících formulí vyberte všechny, které jsou logickým důsledkem formule: $$(P \\land Q) \\Leftrightarrow (P \\Rightarrow R)$$ ",
+    "answers": [
+        {
+            "text": "$P$",
+            "isCorrect": true
+        },
+        {
+            "text": "$(P \\land Q \\land R) \\lor (P \\land \\neg Q \\land \\neg R)$",
+            "isCorrect": true
+        },
+        {
+            "text": "$(Q \\land R)$",
+            "isCorrect": false
+        },
+        {
+            "text": "$\\perp$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "logika"
+    ],
+    "questionType": "multichoice"
+}

@@ -1,0 +1,28 @@
+{
+    "question": "Konečné automaty:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Přijímají všechny kontextové jazyky.",
+            "isCorrect": false
+        },
+        {
+            "text": "Mají konečný počet stavů.",
+            "isCorrect": true
+        },
+        {
+            "text": "Přijímají všechny regulární jazyky.",
+            "isCorrect": true
+        },
+        {
+            "text": "Mají vstup, ze kterého lze číst i na něj zapisovat.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "135) Konečné automaty:\nPřijímají všechny kontextové jazyky.\nMají konečný počet stavů.\nPřijímají všechny regulární jazyky.\nMají vstup, ze kterého lze číst i na něj zapisovat.\nB,C       ."
+}

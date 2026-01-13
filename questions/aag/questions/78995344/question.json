@@ -1,0 +1,27 @@
+{
+    "question": "Minimální deterministický automat přijímající prázdný jazyk bude mít:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "jeden počáteční stav",
+            "isCorrect": true
+        },
+        {
+            "text": "4 stavy",
+            "isCorrect": false
+        },
+        {
+            "text": "takový automat nejde sestrojit",
+            "isCorrect": false
+        },
+        {
+            "text": "alespoň jeden koncový stav",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "116) Minimální deterministický automat přijímající prázdný jazyk bude mít:\n    a) jeden počáteční stav\n    b) 4 stavy\n    c) takový automat nejde sestrojit\n    d) alespoň jeden koncový stav\nA         ."
+}

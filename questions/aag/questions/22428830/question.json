@@ -1,0 +1,27 @@
+{
+    "question": "Existují konečné automaty $A_1$ a $A_2$. O jejich ekvivalenci platí:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "jsou ekvivalentní, pokud jejich přechodové funkce jsou izomorfní",
+            "isCorrect": false
+        },
+        {
+            "text": "lze o tom rozhodnout algoritmicky",
+            "isCorrect": true
+        },
+        {
+            "text": "je to neřešitelný problém",
+            "isCorrect": false
+        },
+        {
+            "text": "nejsou ekvivalentní, pokud mají různý počet stavů a koncových stavů",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "62) Existují konečné automaty A1 a A2. O jejich ekvivalenci platí:\na) jsou ekvivalentní, pokud jejich přechodové funkce jsou izomorfní\nb) lze o tom rozhodnout algoritmicky\nc) je to neřešitelný problém\nd) nejsou ekvivalentní, pokud mají různý počet stavů a koncových stavů\nB        ."
+}

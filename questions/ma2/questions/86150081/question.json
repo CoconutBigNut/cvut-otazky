@@ -1,0 +1,25 @@
+{
+    "question": "Které z následujících řad jsou divergentní?",
+    "answers": [
+        {
+            "text": "$$\\sum_{n=1}^{\\infty} \\cos\\left(\\frac{\\pi}{2} + n\\pi\\right)$$",
+            "isCorrect": false
+        },
+        {
+            "text": "$$\\sum_{n=1}^{\\infty} c, \\text{ kde } c \\text{ je nenulová} \\text{ konstanta.}$$",
+            "isCorrect": true
+        },
+        {
+            "text": "$$\\sum_{n=1}^{\\infty} \\sqrt[n]{n}.$$",
+            "isCorrect": true
+        },
+        {
+            "text": "$$\\sum_{n=1}^{\\infty} (e/\\pi)^n.$$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "ciselne-a-mocninne-rady"
+    ],
+    "questionType": "multichoice"
+}

@@ -1,0 +1,28 @@
+{
+    "question": "Jazyk $L = \\{c^j w u w^R, w \\in \\{a, b\\}^*, u \\in \\{0, 1\\}^*, j = |u|\\}$, které slovo bude vhodným rozkladem slova pro PL?",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$a^* a^*$",
+            "isCorrect": false
+        },
+        {
+            "text": "$ab^p b^p a$",
+            "isCorrect": false
+        },
+        {
+            "text": "$a^p b b a^p$",
+            "isCorrect": true
+        },
+        {
+            "text": "$b^p a a b^p$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "Regulární jazyky",
+        "google-doc"
+    ],
+    "originalText": "118) Jazyk L={c^Jwuw^R  , w ∈{a,b}*, u ∈{0,1}*, j=|u|}, které slovo bude vhodným rozkladem slova pro PL?\n a) a*a*\n b) ab^pb^pa \n c) a^pbba^p\n d) b^paab^p \nC,D      ."
+}

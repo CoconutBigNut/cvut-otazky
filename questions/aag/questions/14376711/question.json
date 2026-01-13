@@ -1,0 +1,25 @@
+{
+    "question": "Mějme následující jazyk: $L = \\{xux : x \\in \\{0, 1\\}^* \\wedge u \\in \\{0, 1\\}\\}$ O každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$) či nepravdivé ($\\times$):",
+    "answers": [
+        {
+            "text": "Existuje konečný automat $M$ takový, že $L(M) = L$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Existuje lineárně omezený Turingův stroj $R$ takový, že $L(R) = L$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Existuje gramatika $G$ taková, že $L(G) = L$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Existuje zásobníkový automat $R$ takový, že $L(R) = L$.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "kontextove-jazyky"
+    ],
+    "questionType": "multichoice"
+}

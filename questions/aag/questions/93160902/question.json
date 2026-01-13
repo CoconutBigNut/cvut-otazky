@@ -1,0 +1,25 @@
+{
+    "question": "Mějme následující jazyk: $L = \\{a^{5k} : k \\in \\mathbb{N}_0\\}$. O každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$) či nepravdivé ($\\times$):",
+    "answers": [
+        {
+            "text": "Jazyk $L$ není regulární.",
+            "isCorrect": false
+        },
+        {
+            "text": "Minimální DKA přijímající jazyk $L$ má $6$ stavů.",
+            "isCorrect": false
+        },
+        {
+            "text": "Minimální DKA přijímající jazyk $L$ má $5$ stavů.",
+            "isCorrect": true
+        },
+        {
+            "text": "Minimální DKA přijímající jazyk $L$ má $2^6$ stavů.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "regularni-jazyky"
+    ],
+    "questionType": "multichoice"
+}

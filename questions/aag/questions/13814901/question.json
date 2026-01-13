@@ -1,0 +1,23 @@
+{
+    "question": "Bonusová otázka – dá se na přednášce neusnout?",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "Ne",
+            "isCorrect": false
+        },
+        {
+            "text": "Určitě ne",
+            "isCorrect": false
+        },
+        {
+            "text": "Chomského formální norma",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "google-doc"
+    ],
+    "originalText": "109) Bonusová otázka - dá se na přednášce neusnout?\n a) Ne\n b) Určitě ne\n c) Chomského formální norma"
+}

@@ -1,0 +1,25 @@
+{
+    "question": "Nechť je funkce $f$ diferencovatelná na intervalu $(a,b)$. Vyberte všechna pravdivá tvrzení.",
+    "answers": [
+        {
+            "text": "Na $(a,b)$ existuje primitivní funkce k $f$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Primitivní funkce k $f$ na $(a,b)$ neexistuje.",
+            "isCorrect": false
+        },
+        {
+            "text": "$f'$ je na $(a,b)$ primitivní funkcí k $f$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Primitivní funkce $F$ k $f$ má spojitou derivaci na $(a,b)$.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "neurcity-integral-a-primitivni-funkce"
+    ],
+    "questionType": "multichoice"
+}

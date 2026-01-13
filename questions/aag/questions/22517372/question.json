@@ -1,0 +1,28 @@
+{
+    "question": "Které z následujících jazyků nejsou bezkontextové?",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$L = \\{ a^n b^n c^n : n \\ge 0 \\}$",
+            "isCorrect": true
+        },
+        {
+            "text": "$L = \\{ a^n b^n : n \\ge 0 \\}$",
+            "isCorrect": false
+        },
+        {
+            "text": "$L = \\{ a^n : n \\ge 0 \\}$",
+            "isCorrect": false
+        },
+        {
+            "text": "$L = \\{ a^n b^m : n, m \\ge 0 \\}$",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "Bezkontextové gramatiky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "146) Které z následujících jazyků nejsou bezkontextové:\nL = { a^n b^n c^n : n ≥ 0 }\nL = { a^n b^n : n ≥ 0 }\nL = { a^n : n ≥ 0 }\nL = { a^n b^m : n, m ≥ 0 }\nA         ."
+}

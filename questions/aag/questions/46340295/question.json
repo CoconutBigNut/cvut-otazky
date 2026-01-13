@@ -1,0 +1,25 @@
+{
+    "question": "O každém z následujících tvrzení rozhodněte, zdali je pravdivé (✔) či nepravdivé (✖):",
+    "answers": [
+        {
+            "text": "Abeceda je binární relace.",
+            "isCorrect": false
+        },
+        {
+            "text": "Abeceda je konečná posloupnost symbolů.",
+            "isCorrect": false
+        },
+        {
+            "text": "Abeceda je zobrazení.",
+            "isCorrect": false
+        },
+        {
+            "text": "Abeceda je konečná množina dvojic.",
+            "isCorrect": false
+        }
+    ],
+    "topics": [
+        "formalni-jazyky-gramatiky-a-jejich-klasifikace"
+    ],
+    "questionType": "multichoice"
+}

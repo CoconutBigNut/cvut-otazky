@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujeme mocninnou řadu $\\sum_{k=1}^{\\infty} \\frac{(2x+1)^k}{k+2}$.",
+    "answers": [
+        {
+            "text": "Oborem konvergence je interval $(-3,1)$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Poloměr konvergence $R = 2$.",
+            "isCorrect": false
+        },
+        {
+            "text": "Poloměr konvergence splňuje $R = \\frac{1}{2}$.",
+            "isCorrect": true
+        },
+        {
+            "text": "Střed této mocninné řady je $a = -\\frac{1}{2}$.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "ciselne-a-mocninne-rady"
+    ],
+    "questionType": "multichoice"
+}

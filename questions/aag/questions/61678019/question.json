@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujte následující gramatiku $G$:\n\n$$G = (\\{S\\}, \\{a\\}, P, S)$$\n\n$$P = \\{\nS \\to a\n\\}$$\n\nO každém z následujících tvrzení rozhodněte, zdali je pravdivé či nepravdivé:",
+    "answers": [
+        {
+            "text": "$L(G)$ je regulární jazyk.",
+            "isCorrect": true
+        },
+        {
+            "text": "$L(G) = \\emptyset$.",
+            "isCorrect": false
+        },
+        {
+            "text": "$L(G)$ je rekurzivně spočetný jazyk.",
+            "isCorrect": true
+        },
+        {
+            "text": "$L(G)$ je bezkontextový jazyk.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "formalni-jazyky-gramatiky-a-jejich-klasifikace"
+    ],
+    "questionType": "multichoice"
+}

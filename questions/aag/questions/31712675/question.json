@@ -1,0 +1,28 @@
+{
+    "question": "Je dána gramatika $G = (N, T, P, S)$ s pravidly tvaru $A \\to xB, A \\to x$, kde $x \\in T^*$ a $A, B \\in N$. Platí, že $G$ generuje:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "regulární jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "bezkontextový jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "kontextový jazyk",
+            "isCorrect": true
+        },
+        {
+            "text": "rekurzivně spočetný jazyk",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "Regulární jazyky",
+        "Formální jazyky, gramatiky a jejich klasifikace",
+        "google-doc"
+    ],
+    "originalText": "19) Je dána gramatika  G=(N,T,P,S)s pravidly tvaru  A→xB,A→x,x∈T*,A,B∈N\nPlatí, že G generuje:\na) regulární jazyk\nb) bezkontextový jazyk \nc) kontextový jazyk\nd) rekurzivně spočetný jazyk\n A,B,C,D  ."
+}

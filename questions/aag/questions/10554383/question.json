@@ -1,0 +1,27 @@
+{
+    "question": "Pumping lemma pro $L = \\{a^n : n \\text{ je prvočíslo}, 12 < n < 48\\}$",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$L$ není regulární a pumping lemma pro něj neplatí",
+            "isCorrect": false
+        },
+        {
+            "text": "$p = 0$",
+            "isCorrect": false
+        },
+        {
+            "text": "$p$ nelze určit",
+            "isCorrect": false
+        },
+        {
+            "text": "nejmenší hodnota $p = 48$",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "google-doc",
+        "Regulární jazyky"
+    ],
+    "originalText": "90) Pumping lemma pro  L={an:njeprvočíslo,12<n<48}\na) L není regulární a pumping lemma pro něj neplatí\nb) p = 0\nc) p nelze určit\nd) nejmenší hodnota p = ___ (doplňte) \nD (48)    ."
+}

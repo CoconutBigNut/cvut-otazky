@@ -1,0 +1,25 @@
+{
+    "question": "Mame $f(x): \\mathbb{R}^n \\rightarrow \\mathbb{R}$, Hessova matice v bode $a$, ve kterem je gradient nulovy",
+    "answers": [
+        {
+            "text": "Pokud je Hess. PD, pak je nutne v bode $a$ maximum",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud je Hess. PD, pak je nutne v bode $a$ minimum",
+            "isCorrect": true
+        },
+        {
+            "text": "Pokud je Hess. PSD, pak v bode $a$ nutne neni extrem",
+            "isCorrect": false
+        },
+        {
+            "text": "Pokud je Hess. ID, pak je nutne $a$ sedlovy bod",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "08022024-rozstrel"
+    ],
+    "questionType": "multichoice"
+}

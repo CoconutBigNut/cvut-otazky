@@ -1,0 +1,13 @@
+{
+    "question": "Uvažujme všechna pěticiferná čísla obsahující pouze cifry z množiny $\\{1, 2, 3, 4, 5\\}$. Určete pravděpodobnost, s jakou náhodně vybrané číslo obsahuje alespoň jednou cifru 5. Svou odpověď zapište jako desetinné číslo (s desetinnou čárkou nebo tečkou, to je jedno), zaokrouhlené na 3 desetinná místa, např. $0,216$.",
+    "answers": [
+        {
+            "text": "0,672",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "pravdepodobnost"
+    ],
+    "questionType": "open"
+}

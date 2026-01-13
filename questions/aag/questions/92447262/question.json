@@ -1,0 +1,29 @@
+{
+    "question": "Co platí:",
+    "questionType": "multichoice",
+    "answers": [
+        {
+            "text": "$L_1, L_2$ jsou regulární jazyky, $L_1 \\cdot L_3 = L_2$, pak $L_3$ musí být regulární",
+            "isCorrect": false
+        },
+        {
+            "text": "$L_1, L_2$ jsou regulární jazyky, $L_3 \\cdot L_1 = L_2$, pak $L_3$ musí být regulární",
+            "isCorrect": false
+        },
+        {
+            "text": "$L_1, L_2$ jsou regulární jazyky, $L_1 \\cdot L_2 = L_3$, pak $L_3$ musí být regulární",
+            "isCorrect": true
+        },
+        {
+            "text": "$L_1, L_2$ jsou bezkontextové jazyky, $L_1 \\cdot L_2 = L_3$, pak $L_3$ může být regulární",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "google-doc",
+        "Regulární jazyky",
+        "Bezkontextové gramatiky",
+        "Formální jazyky, gramatiky a jejich klasifikace"
+    ],
+    "originalText": "52) Co platí:\na) L1, L2 jsou regulární jazyky, L1 . L3 = L2, L3 musí být regulární\nb) L1, L2 jsou regulární jazyky, L3 . L1 = L2, L3 musí být regulární\nc) L1, L2 jsou regulární jazyky, L1 . L2 = L3, L3 musí být regulární\nd) L1, L2 jsou bezkontextové jazyky, L1 . L2 = L3, L3 může být regulární\nC,D        .       "
+}

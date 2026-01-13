@@ -1,0 +1,25 @@
+{
+    "question": "Uvažujte následující gramatiku $G$:\n\n$$G = (\\{A, B, C\\}, \\{0, 1\\}, P, A)$$\n\n$$P = \\{ A \\rightarrow \\varepsilon \\mid 0B, B \\rightarrow C \\mid 0B, C \\rightarrow 1 \\}$$\n\nO každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$) či nepravdivé ($\\times$):",
+    "answers": [
+        {
+            "text": "$G$ je regulární gramatika.",
+            "isCorrect": false
+        },
+        {
+            "text": "Všechna uvedená tvrzení (kromě tohoto) jsou nepravdivá.",
+            "isCorrect": false
+        },
+        {
+            "text": "$G$ je kontextová gramatika.",
+            "isCorrect": true
+        },
+        {
+            "text": "$G$ je bezkontextová gramatika.",
+            "isCorrect": true
+        }
+    ],
+    "topics": [
+        "formalni-jazyky-gramatiky-a-jejich-klasifikace"
+    ],
+    "questionType": "multichoice"
+}
