@@ -1,12 +1,7 @@
-import os
 import json
-import base64
-import mimetypes
-import io
 from pathlib import Path
-from PIL import Image
 
-def aggregate_data(questions_dir, output_file, image_base_url=None, embed_images=False, quality=100):
+def aggregate_data(questions_dir, output_file, image_base_url="https://raw.githubusercontent.com/CoconutBigNut/cvut-otazky/refs/heads/main/questions"):
     questions_path = Path(questions_dir)
     subjects_data = []
 
@@ -54,48 +49,9 @@ def aggregate_data(questions_dir, output_file, image_base_url=None, embed_images
                                 # Prioritize 'quiz.png' or the first image found
                                 main_image = next((f for f in image_files if f.name.lower() == 'quiz.png'), image_files[0])
                                 
-                                if embed_images:
-                                    # Convert image to Base64 with optional compression
-                                    try:
-                                        with Image.open(main_image) as img:
-                                            # Skip compression for SVGs as they are text-based
-                                            if main_image.suffix.lower() == '.svg':
-                                                with open(main_image, "rb") as svg_file:
-                                                    encoded_string = base64.b64encode(svg_file.read()).decode('utf-8')
-                                                mime_type = "image/svg+xml"
-                                            else:
-                                                buffer = io.BytesIO()
-                                                # If quality is less than 100, we use WebP for much better compression
-                                                # even if the source was PNG (it's for web delivery after all)
-                                                if quality < 100:
-                                                    img.save(buffer, format="WEBP", quality=quality, method=6)
-                                                    mime_type = "image/webp"
-                                                else:
-                                                    # Just optimize the original format
-                                                    fmt = img.format if img.format else 'PNG'
-                                                    img.save(buffer, format=fmt, optimize=True)
-                                                    mime_type = f"image/{fmt.lower()}"
-                                                
-                                                encoded_string = base64.b64encode(buffer.getvalue()).decode('utf-8')
-                                            
-                                            # Use quizPhoto for images named quiz.png, otherwise use photo
-                                            field_name = 'quizPhoto' if main_image.name.lower().startswith('quiz') else 'photo'
-                                            q_data[field_name] = f"data:{mime_type};base64,{encoded_string}"
-                                    except Exception as e:
-                                        print(f"Warning: Could not process image {main_image}: {e}")
-                                        # Fallback to raw copy if Pillow fails
-                                        with open(main_image, "rb") as img_file:
-                                            encoded_string = base64.b64encode(img_file.read()).decode('utf-8')
-                                            mime_type, _ = mimetypes.guess_type(main_image)
-                                            field_name = 'quizPhoto' if main_image.name.lower().startswith('quiz') else 'photo'
-                                            q_data[field_name] = f"data:{mime_type};base64,{encoded_string}"
-                                else:
-                                    rel_path = f"{subject_dir.name}/questions/{q_dir.name}/{main_image.name}"
-                                    field_name = 'quizPhoto' if main_image.name.lower().startswith('quiz') else 'photo'
-                                    if image_base_url:
-                                        q_data[field_name] = f"{image_base_url.rstrip('/')}/{rel_path}"
-                                    else:
-                                        q_data[field_name] = rel_path
+                                rel_path = f"{subject_dir.name}/questions/{q_dir.name}/{main_image.name}"
+                                field_name = 'quizPhoto' if main_image.name.lower().startswith('quiz') else 'photo'
+                                q_data[field_name] = f"{image_base_url.rstrip('/')}/{rel_path}"
                             
                             subject_questions.append(q_data)
                         except json.JSONDecodeError:
@@ -120,14 +76,11 @@ def aggregate_data(questions_dir, output_file, image_base_url=None, embed_images
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description='Aggregate questions and metadata into a single JSON file.')
-    parser.add_argument('--image-base', help='Base URL for images (e.g., https://raw.githubusercontent.com/user/repo/main/questions/)')
-    parser.add_argument('--embed', action='store_true', help='Embed images directly into the JSON as Base64 data URIs')
-    parser.add_argument('--quality', type=int, default=100, help='Quality percentage for compressed images (1-100). Only used with --embed.')
+    parser.add_argument('--image-base', default="https://raw.githubusercontent.com/skopevoj/cvut-marasty/main/questions", help='Base URL for images (e.g., https://raw.githubusercontent.com/user/repo/main/questions/)')
     args = parser.parse_args()
 
     # Robust path detection
     current_dir = Path(__file__).parent.resolve()
-    # ... existing detection logic ...
     if (current_dir / "aag").exists() and not (current_dir / "subject.json").exists():
         # We are likely already in the questions folder
         agg_questions_dir = current_dir
@@ -151,4 +104,5 @@ if __name__ == "__main__":
     # Ensure output directory exists
     agg_output_file.parent.mkdir(parents=True, exist_ok=True)
     
-    aggregate_data(agg_questions_dir, agg_output_file, image_base_url=args.image_base, embed_images=args.embed, quality=args.quality)
+    aggregate_data(agg_questions_dir, agg_output_file, image_base_url=args.image_base)
+
