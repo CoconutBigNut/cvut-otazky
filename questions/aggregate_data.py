@@ -1,5 +1,7 @@
 import json
 from pathlib import Path
+from datetime import datetime
+import hashlib
 
 def aggregate_data(questions_dir, output_file, image_base_url="https://raw.githubusercontent.com/CoconutBigNut/cvut-otazky/refs/heads/main/questions"):
     questions_path = Path(questions_dir)
@@ -7,28 +9,33 @@ def aggregate_data(questions_dir, output_file, image_base_url="https://raw.githu
 
     # Iterate through subject folders
     for subject_dir in sorted(questions_path.iterdir()):
-        if not subject_dir.is_dir():
-            continue
-        
-        # Skip hidden folders and known non-subject folders
-        if subject_dir.name.startswith('.') or subject_dir.name in ['web', 'scripts', 'misc']:
+        if not subject_dir.is_dir() or subject_dir.name.startswith('.') or subject_dir.name in ['web', 'scripts', 'misc']:
             continue
 
         subject_json_path = subject_dir / "subject.json"
         if not subject_json_path.exists():
-            # Only warn if it looks like it should be a subject (has a questions subfolder)
-            if (subject_dir / "questions").exists():
-                print(f"Warning: No subject.json found in {subject_dir}")
             continue
 
         with open(subject_json_path, 'r', encoding='utf-8') as f:
-            subject_info = json.load(f)
+            raw_subject = json.load(f)
 
-        subject_questions = []
+        # Map topics to topicMap (assuming topics is a list of objects with 'name' and maybe an id/slug)
+        topic_map = {}
+        if 'topics' in raw_subject:
+            for t in raw_subject['topics']:
+                # Using lower-case name as key if id is not present
+                t_id = t.get('id', t.get('name', '').lower().replace(' ', '_'))
+                topic_map[t_id] = t.get('name')
+
+        subject_info = {
+            "id": raw_subject.get('code'),
+            "title": raw_subject.get('name'),
+            "topicMap": topic_map,
+            "questions": []
+        }
+
         questions_subdir = subject_dir / "questions"
-        
         if questions_subdir.exists() and questions_subdir.is_dir():
-            # Iterate through individual question folders
             for q_dir in sorted(questions_subdir.iterdir()):
                 if not q_dir.is_dir():
                     continue
@@ -38,34 +45,36 @@ def aggregate_data(questions_dir, output_file, image_base_url="https://raw.githu
                     with open(q_json_path, 'r', encoding='utf-8') as f:
                         try:
                             q_data = json.load(f)
-                            q_data['id'] = q_dir.name
-                            q_data['subjectCode'] = subject_info.get('code')
-                            
-                            # Detect images
+                            # Update image URLs
                             image_extensions = ('.png', '.jpg', '.jpeg', '.svg', '.webp')
                             image_files = [f for f in q_dir.iterdir() if f.suffix.lower() in image_extensions]
                             
-                            if image_files:
-                                # Prioritize 'quiz.png' or the first image found
-                                main_image = next((f for f in image_files if f.name.lower() == 'quiz.png'), image_files[0])
-                                
-                                rel_path = f"{subject_dir.name}/questions/{q_dir.name}/{main_image.name}"
-                                field_name = 'quizPhoto' if main_image.name.lower().startswith('quiz') else 'photo'
-                                q_data[field_name] = f"{image_base_url.rstrip('/')}/{rel_path}"
-                            
-                            subject_questions.append(q_data)
+                            for img in image_files:
+                                rel_path = f"{subject_dir.name}/questions/{q_dir.name}/{img.name}"
+                                url = f"{image_base_url.rstrip('/')}/{rel_path}"
+                                if img.name.lower().startswith('quiz'):
+                                    q_data['quizPhoto'] = url
+                                else:
+                                    q_data['image'] = url
+
+                            # Ensure ID and core fields exist
+                            q_data['id'] = q_dir.name
+                            subject_info['questions'].append(q_data)
                         except json.JSONDecodeError:
                             print(f"Error decoding JSON in {q_json_path}")
 
-        # Combine subject info with its questions
-        subject_info['questions'] = subject_questions
         subjects_data.append(subject_info)
 
-    # Wrap in root object
+    # Prepare final output
     final_data = {
-        "subjects": subjects_data,
-        "generatedAt": Path(output_file).name, # Just a placeholder or timestamp
-        "version": "1.0.0"
+        "metadata": {
+            "version": "1.2.0",
+            "syntax": "1.0.0",
+            "generatedAt": datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+            "hash": hashlib.md5(str(subjects_data).encode()).hexdigest()[:8],
+            "repository": "https://github.com/CoconutBigNut/cvut-otazky"
+        },
+        "subjects": subjects_data
     }
 
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -76,8 +85,8 @@ def aggregate_data(questions_dir, output_file, image_base_url="https://raw.githu
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description='Aggregate questions and metadata into a single JSON file.')
-    parser.add_argument('--image-base', default="https://raw.githubusercontent.com/CoconutBigNut/cvut-marasty/main/questions", help='Base URL for images (e.g., https://raw.githubusercontent.com/user/repo/main/questions/)')
-    args = parser.parse_args()
+    parser.add_argument('--image-base', default="https://raw.githubusercontent.com/CoconutBigNut/cvut-otazky/refs/heads/main/questions", help='Base URL for images (e.g., https://raw.githubusercontent.com/user/repo/main/questions/)')
+    args = parser.parse_args() 
 
     # Robust path detection
     current_dir = Path(__file__).parent.resolve()
