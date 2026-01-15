@@ -14,7 +14,7 @@
             "isCorrect": true
         },
         {
-            "text": "Je roven $\\displaystyle \\int_{-1}^1 (\\int_0^{|y|} xy^2 \\, dx) \\, dy$",
+            "text": "Je roven $\\displaystyle \\int_{-1}^1 (\\int_0^{y} xy^2 \\, dx) \\, dy$",
             "isCorrect": false
         }
     ],
