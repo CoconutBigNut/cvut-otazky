@@ -2,8 +2,8 @@
     "metadata": {
         "version": "1.2.0",
         "syntax": "1.0.0",
-        "generatedAt": "2026-01-15T11:07:41Z",
-        "hash": "c84326fe",
+        "generatedAt": "2026-01-15T11:22:42Z",
+        "hash": "41100f4e",
         "repository": "https://github.com/CoconutBigNut/cvut-otazky"
     },
     "subjects": [
@@ -4381,32 +4381,6 @@
                     "questionType": "multichoice",
                     "quizPhoto": "https://raw.githubusercontent.com/CoconutBigNut/cvut-otazky/refs/heads/main/questions/aag/questions/72766839/quiz.png",
                     "id": "72766839"
-                },
-                {
-                    "question": "Nechť $L_1, L_2$ jsou libovolné neprázdné jazyky nad abecedou $\\Sigma$. O každém z následujících tvrzení rozhodněte, zdali je pravdivé (✔), nebo nepravdivé (✖). ($L^R$ značí jazyk $L^R = \\{w^R : w \\in L\\}$. Pokud je $L$ nekonečný jazyk, pak $|L| = \\infty$, přičemž $\\infty + \\infty = \\infty$)",
-                    "answers": [
-                        {
-                            "text": "Existují $L_1, L_2$ takové, že $|L_1| > |L_2|$ a zároveň $|L_1^R| < |L_2^R|$.",
-                            "isCorrect": false
-                        },
-                        {
-                            "text": "Existuje $L_1$ konečný tak, že $L_1^R$ je nekonečný.",
-                            "isCorrect": false
-                        },
-                        {
-                            "text": "Vždy platí, že $(L_1^R \\cup L_2^R) = (L_1 \\cup L_2)^R$.",
-                            "isCorrect": true
-                        },
-                        {
-                            "text": "Pokud $\\varepsilon \\notin L_1$, pak vždy platí, že $L_1 \\cap L_1^R = \\emptyset$.",
-                            "isCorrect": false
-                        }
-                    ],
-                    "topics": [
-                        "formalni-jazyky-gramatiky-a-jejich-klasifikace"
-                    ],
-                    "questionType": "multichoice",
-                    "id": "73900188"
                 },
                 {
                     "question": "Nechť $L_1, L_2$ jsou libovolné neprázdné jazyky nad abecedou $\\Sigma$. O každém z následujících tvrzení rozhodněte, zdali je pravdivé ($\\checkmark$), nebo nepravdivé ($\\times$). ($L^R$ značí jazyk $L^R = \\{w^R : w \\in L\\}$. Pokud je $L$ nekonečný jazyk, pak $|L| = \\infty$, přičemž $\\infty + \\infty = \\infty$)",
@@ -10777,7 +10751,7 @@
                             "isCorrect": true
                         },
                         {
-                            "text": "Je roven $\\displaystyle \\int_{-1}^1 (\\int_0^{|y|} xy^2 \\, dx) \\, dy$",
+                            "text": "Je roven $\\displaystyle \\int_{-1}^1 (\\int_0^{y} xy^2 \\, dx) \\, dy$",
                             "isCorrect": false
                         }
                     ],
